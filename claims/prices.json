@@ -1,0 +1,15 @@
+{
+  "scope": "Hourly streaming prices quoted on the existing Live 1 page; separate from benchmark measurements.",
+  "quote_date": "2026-11-19",
+  "verification_note": "AirCaps, ElevenLabs, Deepgram and MAI public sources checked November 22. The current AssemblyAI pricing page does not establish these legacy model rates; retain them as dated quotes pending an archived rate source.",
+  "rows": [
+    {"model": "AirCaps Live 1", "hourly_usd": 0.20, "source": "https://aircaps.ai/pricing"},
+    {"model": "ElevenLabs Scribe v3 Live", "hourly_usd": 0.22, "source": "https://elevenlabs.io/pricing/api"},
+    {"model": "ElevenLabs Scribe v2 Realtime", "hourly_usd": 0.22, "source": "https://elevenlabs.io/pricing/api"},
+    {"model": "Deepgram Nova-3", "hourly_usd": 0.288, "source": "https://deepgram.com/pricing", "page_rounded_usd": 0.29},
+    {"model": "Deepgram Flux", "hourly_usd": 0.39, "source": "https://deepgram.com/pricing"},
+    {"model": "AssemblyAI Universal-3.6 Pro", "hourly_usd": 0.45, "status": "historical_quote_not_currently_verified"},
+    {"model": "AssemblyAI Universal-3.5 Pro", "hourly_usd": 0.45, "status": "historical_quote_not_currently_verified"},
+    {"model": "MAI Transcribe 2 Streaming", "hourly_usd": 0.54, "source": "https://microsoft.ai/models/mai-transcribe-2/"}
+  ]
+}

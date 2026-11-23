@@ -1,0 +1,962 @@
+{
+  "historical": [
+    {
+      "model": "AirCaps Live 1",
+      "model_key": "aircaps_aircaps-live-1",
+      "wer": 0.036479784819702446,
+      "ttfs": 37.55382200142776,
+      "ttfs_p95": 51.50554500028193,
+      "ttfs_p99": 64.70024289992564,
+      "failed": 0,
+      "scored": 9205,
+      "words": 154661
+    },
+    {
+      "model": "ElevenLabs Scribe v3 Live",
+      "model_key": "elevenlabs_scribe_v3_live",
+      "wer": 0.04097348394229961,
+      "ttfs": 78.6712669996632,
+      "ttfs_p95": 120.98463100005574,
+      "ttfs_p99": 190.93272810009657,
+      "failed": 0,
+      "scored": 9205,
+      "words": 154661
+    },
+    {
+      "model": "MAI Transcribe 2 Streaming",
+      "model_key": "mai_mai-transcribe-2-streaming",
+      "wer": 0.04123211410762894,
+      "ttfs": 63.3053699998527,
+      "ttfs_p95": 208.07894199970178,
+      "ttfs_p99": 757.8804732985064,
+      "failed": 0,
+      "scored": 9205,
+      "words": 154661
+    },
+    {
+      "model": "AssemblyAI Universal-3.6 Pro",
+      "model_key": "assemblyai_universal-3-6-pro",
+      "wer": 0.04306353148119406,
+      "ttfs": 99.40639299838949,
+      "ttfs_p95": 211.3677822499994,
+      "ttfs_p99": 318.13969583838116,
+      "failed": 3,
+      "scored": 9204,
+      "words": 154632
+    },
+    {
+      "model": "AssemblyAI Universal-3.5 Pro",
+      "model_key": "assemblyai_universal-3-5-pro",
+      "wer": 0.04424051942676807,
+      "ttfs": 89.05373999914445,
+      "ttfs_p95": 155.1063710001472,
+      "ttfs_p99": 209.69132928050385,
+      "failed": 2,
+      "scored": 9204,
+      "words": 154632
+    },
+    {
+      "model": "ElevenLabs Scribe v2 Realtime",
+      "model_key": "elevenlabs_scribe_v2_realtime",
+      "wer": 0.044768881618507575,
+      "ttfs": 100.56054999995467,
+      "ttfs_p95": 146.33649650022562,
+      "ttfs_p99": 186.40626009994307,
+      "failed": 0,
+      "scored": 9205,
+      "words": 154661
+    },
+    {
+      "model": "Deepgram Nova 3",
+      "model_key": "deepgram_nova-3",
+      "wer": 0.06280186989609533,
+      "ttfs": 78.44066400002703,
+      "ttfs_p95": 127.70304349982098,
+      "ttfs_p99": 149.55384329985006,
+      "failed": 0,
+      "scored": 9205,
+      "words": 154661
+    },
+    {
+      "model": "Deepgram Flux",
+      "model_key": "deepgram_flux-general-en",
+      "wer": 0.07477991617705168,
+      "ttfs": 98.15796600014437,
+      "ttfs_p95": 167.740350999793,
+      "ttfs_p99": 192.84657800003515,
+      "failed": 130,
+      "scored": 9077,
+      "words": 154373
+    }
+  ],
+  "dataset_cards": {
+    "pipecat": [
+      {
+        "model": "AirCaps Live 1",
+        "model_key": "aircaps_aircaps-live-1",
+        "wer": 0.01516811325524564
+      },
+      {
+        "model": "AssemblyAI Universal-3.6 Pro",
+        "model_key": "assemblyai_universal-3-6-pro",
+        "wer": 0.016600657284907727
+      },
+      {
+        "model": "ElevenLabs Scribe v3 Live",
+        "model_key": "elevenlabs_scribe_v3_live",
+        "wer": 0.017021993764220106
+      },
+      {
+        "model": "MAI Transcribe 2 Streaming",
+        "model_key": "mai_mai-transcribe-2-streaming",
+        "wer": 0.01820173590629477
+      },
+      {
+        "model": "ElevenLabs Scribe v2 Realtime",
+        "model_key": "elevenlabs_scribe_v2_realtime",
+        "wer": 0.018496671441813432
+      },
+      {
+        "model": "AssemblyAI Universal-3.5 Pro",
+        "model_key": "assemblyai_universal-3-5-pro",
+        "wer": 0.01870733968146962
+      },
+      {
+        "model": "Deepgram Nova 3",
+        "model_key": "deepgram_nova-3",
+        "wer": 0.03240077525912193
+      },
+      {
+        "model": "Deepgram Flux",
+        "model_key": "deepgram_flux-general-en",
+        "wer": 0.035478026376774954
+      }
+    ],
+    "stt-v3": [
+      {
+        "model": "AirCaps Live 1",
+        "model_key": "aircaps_aircaps-live-1",
+        "wer": 0.011238160671345143
+      },
+      {
+        "model": "AssemblyAI Universal-3.6 Pro",
+        "model_key": "assemblyai_universal-3-6-pro",
+        "wer": 0.012759483731658243
+      },
+      {
+        "model": "ElevenLabs Scribe v3 Live",
+        "model_key": "elevenlabs_scribe_v3_live",
+        "wer": 0.013201158168523335
+      },
+      {
+        "model": "MAI Transcribe 2 Streaming",
+        "model_key": "mai_mai-transcribe-2-streaming",
+        "wer": 0.013888207292535702
+      },
+      {
+        "model": "ElevenLabs Scribe v2 Realtime",
+        "model_key": "elevenlabs_scribe_v2_realtime",
+        "wer": 0.014084507042253521
+      },
+      {
+        "model": "AssemblyAI Universal-3.5 Pro",
+        "model_key": "assemblyai_universal-3-5-pro",
+        "wer": 0.014378956666830249
+      },
+      {
+        "model": "Deepgram Nova 3",
+        "model_key": "deepgram_nova-3",
+        "wer": 0.026451391274476124
+      },
+      {
+        "model": "Deepgram Flux",
+        "model_key": "deepgram_flux-general-en",
+        "wer": 0.03072091083083869
+      }
+    ],
+    "livekit-general": [
+      {
+        "model": "AirCaps Live 1",
+        "model_key": "aircaps_aircaps-live-1",
+        "wer": 0.07023453093812375
+      },
+      {
+        "model": "MAI Transcribe 2 Streaming",
+        "model_key": "mai_mai-transcribe-2-streaming",
+        "wer": 0.07597305389221556
+      },
+      {
+        "model": "Deepgram Nova 3",
+        "model_key": "deepgram_nova-3",
+        "wer": 0.08083832335329341
+      },
+      {
+        "model": "Deepgram Flux",
+        "model_key": "deepgram_flux-general-en",
+        "wer": 0.08204295704295704
+      },
+      {
+        "model": "AssemblyAI Universal-3.6 Pro",
+        "model_key": "assemblyai_universal-3-6-pro",
+        "wer": 0.08358283433133733
+      },
+      {
+        "model": "AssemblyAI Universal-3.5 Pro",
+        "model_key": "assemblyai_universal-3-5-pro",
+        "wer": 0.08570359281437126
+      },
+      {
+        "model": "ElevenLabs Scribe v2 Realtime",
+        "model_key": "elevenlabs_scribe_v2_realtime",
+        "wer": 0.08857285429141716
+      },
+      {
+        "model": "ElevenLabs Scribe v3 Live",
+        "model_key": "elevenlabs_scribe_v3_live",
+        "wer": 0.09019461077844311
+      }
+    ],
+    "livekit-accented": [
+      {
+        "model": "AirCaps Live 1",
+        "model_key": "aircaps_aircaps-live-1",
+        "wer": 0.05227552275522755
+      },
+      {
+        "model": "ElevenLabs Scribe v3 Live",
+        "model_key": "elevenlabs_scribe_v3_live",
+        "wer": 0.05852808528085281
+      },
+      {
+        "model": "ElevenLabs Scribe v2 Realtime",
+        "model_key": "elevenlabs_scribe_v2_realtime",
+        "wer": 0.06109061090610906
+      },
+      {
+        "model": "Deepgram Nova 3",
+        "model_key": "deepgram_nova-3",
+        "wer": 0.06939319393193932
+      },
+      {
+        "model": "MAI Transcribe 2 Streaming",
+        "model_key": "mai_mai-transcribe-2-streaming",
+        "wer": 0.07902829028290283
+      },
+      {
+        "model": "AssemblyAI Universal-3.6 Pro",
+        "model_key": "assemblyai_universal-3-6-pro",
+        "wer": 0.08148831488314884
+      },
+      {
+        "model": "AssemblyAI Universal-3.5 Pro",
+        "model_key": "assemblyai_universal-3-5-pro",
+        "wer": 0.08487084870848709
+      },
+      {
+        "model": "Deepgram Flux",
+        "model_key": "deepgram_flux-general-en",
+        "wer": 0.08994436431073563
+      }
+    ]
+  },
+  "smart_turn_600": [
+    {
+      "model": "AirCaps Live 1",
+      "tp": 1754,
+      "fp": 60,
+      "tn": 2658,
+      "fn": 895,
+      "accuracy": 0.8220607415688467,
+      "recall": 0.6621366553416383,
+      "fpr": 0.02207505518763797,
+      "precision": 0.9669239250275634,
+      "f1": 0.7860183732915079,
+      "median_ms": 209.3590160009633,
+      "p95_ms": 522.1251338019072,
+      "official_fpr": 0.011179429849077696,
+      "official_fnr": 0.16675982858207564,
+      "pipecat_formula": {
+        "sample_count": 5367,
+        "accuracy": 82.20607415688467,
+        "precision": 0.9669239250275634,
+        "recall": 0.6621366553416383,
+        "f1": 0.7860183732915079,
+        "false_positive_rate": 1.1179429849077696,
+        "false_negative_rate": 16.675982858207565
+      }
+    },
+    {
+      "model": "AssemblyAI Universal-3.5 Pro",
+      "tp": 1746,
+      "fp": 678,
+      "tn": 2040,
+      "fn": 903,
+      "accuracy": 0.7054220234768027,
+      "recall": 0.6591166477916195,
+      "fpr": 0.24944812362030905,
+      "precision": 0.7202970297029703,
+      "f1": 0.6883500887049083,
+      "median_ms": 318.7022169971898,
+      "p95_ms": 555.8208979979464,
+      "official_fpr": 0.12632755729457798,
+      "official_fnr": 0.16825041922861933,
+      "pipecat_formula": {
+        "sample_count": 5367,
+        "accuracy": 70.54220234768027,
+        "precision": 0.7202970297029703,
+        "recall": 0.6591166477916195,
+        "f1": 0.6883500887049083,
+        "false_positive_rate": 12.632755729457799,
+        "false_negative_rate": 16.82504192286193
+      }
+    },
+    {
+      "model": "AssemblyAI Universal-3.6 Pro",
+      "tp": 1720,
+      "fp": 579,
+      "tn": 2139,
+      "fn": 929,
+      "accuracy": 0.7190236631265139,
+      "recall": 0.6493016232540582,
+      "fpr": 0.2130242825607064,
+      "precision": 0.7481513701609396,
+      "f1": 0.6952303961196443,
+      "median_ms": 337.0000945010547,
+      "p95_ms": 557.5798161985584,
+      "official_fpr": 0.10788149804359978,
+      "official_fnr": 0.17309483882988635,
+      "pipecat_formula": {
+        "sample_count": 5367,
+        "accuracy": 71.9023663126514,
+        "precision": 0.7481513701609396,
+        "recall": 0.6493016232540582,
+        "f1": 0.6952303961196443,
+        "false_positive_rate": 10.788149804359978,
+        "false_negative_rate": 17.309483882988637
+      }
+    },
+    {
+      "model": "Deepgram Flux",
+      "tp": 1390,
+      "fp": 783,
+      "tn": 1935,
+      "fn": 1259,
+      "accuracy": 0.6195267374697224,
+      "recall": 0.5247263118157796,
+      "fpr": 0.28807947019867547,
+      "precision": 0.6396686608375518,
+      "f1": 0.5765242637909581,
+      "median_ms": 214.4781979999333,
+      "p95_ms": 553.4737739999091,
+      "official_fpr": 0.14589155953046395,
+      "official_fnr": 0.23458170299981368,
+      "pipecat_formula": {
+        "sample_count": 5367,
+        "accuracy": 61.952673746972245,
+        "precision": 0.6396686608375518,
+        "recall": 0.5247263118157796,
+        "f1": 0.5765242637909581,
+        "false_positive_rate": 14.589155953046395,
+        "false_negative_rate": 23.45817029998137
+      }
+    }
+  ],
+  "smart_turn_1000": [
+    {
+      "model": "AirCaps Live 1",
+      "tp": 2087,
+      "fp": 91,
+      "tn": 2627,
+      "fn": 562,
+      "accuracy": 0.8783305384758711,
+      "recall": 0.787844469611174,
+      "fpr": 0.03348050036791759,
+      "precision": 0.95821854912764,
+      "f1": 0.8647192873420344,
+      "median_ms": 247.5232669993419,
+      "p95_ms": 841.2052784006237,
+      "official_fpr": 0.016955468604434507,
+      "official_fnr": 0.10471399291969442,
+      "pipecat_formula": {
+        "sample_count": 5367,
+        "accuracy": 87.83305384758711,
+        "precision": 0.95821854912764,
+        "recall": 0.787844469611174,
+        "f1": 0.8647192873420344,
+        "false_positive_rate": 1.6955468604434507,
+        "false_negative_rate": 10.471399291969442
+      }
+    },
+    {
+      "model": "AssemblyAI Universal-3.5 Pro",
+      "tp": 1987,
+      "fp": 870,
+      "tn": 1848,
+      "fn": 662,
+      "accuracy": 0.7145518911868828,
+      "recall": 0.7500943752359381,
+      "fpr": 0.3200883002207506,
+      "precision": 0.6954847742387119,
+      "f1": 0.721758082092263,
+      "median_ms": 339.811968000431,
+      "p95_ms": 756.1916715009281,
+      "official_fpr": 0.1621017328116266,
+      "official_fnr": 0.12334637600149059,
+      "pipecat_formula": {
+        "sample_count": 5367,
+        "accuracy": 71.45518911868828,
+        "precision": 0.6954847742387119,
+        "recall": 0.7500943752359381,
+        "f1": 0.721758082092263,
+        "false_positive_rate": 16.21017328116266,
+        "false_negative_rate": 12.33463760014906
+      }
+    },
+    {
+      "model": "AssemblyAI Universal-3.6 Pro",
+      "tp": 2006,
+      "fp": 794,
+      "tn": 1924,
+      "fn": 643,
+      "accuracy": 0.7322526551145891,
+      "recall": 0.757266893167233,
+      "fpr": 0.29212656364974243,
+      "precision": 0.7164285714285714,
+      "f1": 0.7362818865846944,
+      "median_ms": 375.679917498347,
+      "p95_ms": 778.8321727498991,
+      "official_fpr": 0.14794112166946152,
+      "official_fnr": 0.11980622321594932,
+      "pipecat_formula": {
+        "sample_count": 5367,
+        "accuracy": 73.22526551145891,
+        "precision": 0.7164285714285714,
+        "recall": 0.757266893167233,
+        "f1": 0.7362818865846944,
+        "false_positive_rate": 14.794112166946153,
+        "false_negative_rate": 11.980622321594932
+      }
+    },
+    {
+      "model": "Deepgram Flux",
+      "tp": 1937,
+      "fp": 1470,
+      "tn": 1248,
+      "fn": 712,
+      "accuracy": 0.5934414011552077,
+      "recall": 0.7312193280483201,
+      "fpr": 0.5408388520971302,
+      "precision": 0.5685353683592603,
+      "f1": 0.6396961690885072,
+      "median_ms": 316.26633299987714,
+      "p95_ms": 933.7921826002066,
+      "official_fpr": 0.2738960313024036,
+      "official_fnr": 0.13266256754238867,
+      "pipecat_formula": {
+        "sample_count": 5367,
+        "accuracy": 59.34414011552077,
+        "precision": 0.5685353683592603,
+        "recall": 0.7312193280483201,
+        "f1": 0.6396961690885072,
+        "false_positive_rate": 27.38960313024036,
+        "false_negative_rate": 13.266256754238867
+      }
+    }
+  ],
+  "livekit_native": [
+    {
+      "model": "AirCaps Live 1",
+      "all_hold_spans": 2305,
+      "all_false_cutoffs": 291,
+      "all_fpr": 0.12624728850325379,
+      "hold_spans": 2158,
+      "false_cutoffs": 289,
+      "fpr": 0.133920296570899,
+      "eot_spans": 1744,
+      "eot_detected": 1721,
+      "recall": 0.9868119266055045,
+      "median_ms": 301.0431969969067,
+      "p95_ms": 1401.1811879987358,
+      "delay_5": 1.3202981651376149,
+      "delay_10": 0.7563073394495413,
+      "cutoff_600": 0.15384615384615385,
+      "cutoff_1000": 0.06348470806302131
+    },
+    {
+      "model": "AssemblyAI Universal-3.5 Pro",
+      "all_hold_spans": 2305,
+      "all_false_cutoffs": 712,
+      "all_fpr": 0.3088937093275488,
+      "hold_spans": 2158,
+      "false_cutoffs": 710,
+      "fpr": 0.3290083410565338,
+      "eot_spans": 1744,
+      "eot_detected": 1704,
+      "recall": 0.9770642201834863,
+      "median_ms": 341.6022180000119,
+      "p95_ms": 1447.7314704985415,
+      "delay_5": 2.0,
+      "delay_10": 1.0218463302752296,
+      "cutoff_600": 0.2534754402224282,
+      "cutoff_1000": 0.10379981464318813
+    },
+    {
+      "model": "AssemblyAI Universal-3.6 Pro",
+      "all_hold_spans": 2305,
+      "all_false_cutoffs": 466,
+      "all_fpr": 0.20216919739696312,
+      "hold_spans": 2158,
+      "false_cutoffs": 464,
+      "fpr": 0.21501390176088972,
+      "eot_spans": 1744,
+      "eot_detected": 1696,
+      "recall": 0.9724770642201835,
+      "median_ms": 389.876003999173,
+      "p95_ms": 1486.7116015000865,
+      "delay_5": 2.0,
+      "delay_10": 0.9539564220183487,
+      "cutoff_600": 0.20667284522706209,
+      "cutoff_1000": 0.09545875810936053
+    },
+    {
+      "model": "Deepgram Flux",
+      "all_hold_spans": 2305,
+      "all_false_cutoffs": 307,
+      "all_fpr": 0.13318872017353578,
+      "hold_spans": 2158,
+      "false_cutoffs": 305,
+      "fpr": 0.14133456904541242,
+      "eot_spans": 1744,
+      "eot_detected": 1647,
+      "recall": 0.9443807339449541,
+      "median_ms": 383.2244929998689,
+      "p95_ms": 922.6309307999722,
+      "delay_5": 1.379185779816514,
+      "delay_10": 0.7425458715596329,
+      "cutoff_600": 0.1195551436515292,
+      "cutoff_1000": 0.07228915662650602
+    }
+  ],
+  "pipecat": [
+    {
+      "model": "AirCaps Live 1",
+      "origin": "Our raw rerun",
+      "raw_per_clip_available": true,
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "judge": [
+        "claude-sonnet-5-5",
+        "claude-sonnet-5-5 effort=medium repeats=1 rev=d739a9b1"
+      ],
+      "mean_wer": 0.004445437767318282,
+      "wer": 0.00351501291661373,
+      "ttfs": 208.5893154144287,
+      "ttfs_p95": 213.8833999633789,
+      "ttfs_p99": 223.41418266296387,
+      "transcript_rate": 0.997,
+      "perfect_rate": 0.9388164493480441,
+      "failed": 3,
+      "samples": 1000,
+      "semantic_scored": 997,
+      "reference_words": 23613,
+      "total_errors": 83
+    },
+    {
+      "vendor": "AssemblyAI",
+      "model_name": "universal-3-6-pro",
+      "model": "AssemblyAI — universal-3-6-pro",
+      "transcript_rate": 0.9990000000000001,
+      "perfect_rate": 0.887,
+      "mean_wer": 0.0089,
+      "wer": 0.008,
+      "ttfs": 307.0,
+      "ttfs_p95": 401.0,
+      "ttfs_p99": 498.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| AssemblyAI | universal-3-6-pro | 99.9% | 88.7% | 0.89% | 0.80% | 307ms | 401ms | 498ms |"
+    },
+    {
+      "vendor": "AssemblyAI",
+      "model_name": "universal-3-5-pro",
+      "model": "AssemblyAI — universal-3-5-pro",
+      "transcript_rate": 0.9990000000000001,
+      "perfect_rate": 0.86,
+      "mean_wer": 0.011200000000000002,
+      "wer": 0.0095,
+      "ttfs": 282.0,
+      "ttfs_p95": 354.0,
+      "ttfs_p99": 393.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| AssemblyAI | universal-3-5-pro | 99.9% | 86.0% | 1.12% | 0.95% | 282ms | 354ms | 393ms |"
+    },
+    {
+      "vendor": "AssemblyAI",
+      "model_name": "universal-streaming-english",
+      "model": "AssemblyAI — universal-streaming-english",
+      "transcript_rate": 0.998,
+      "perfect_rate": 0.6679999999999999,
+      "mean_wer": 0.0281,
+      "wer": 0.0242,
+      "ttfs": 256.0,
+      "ttfs_p95": 362.0,
+      "ttfs_p99": 417.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| AssemblyAI | universal-streaming-english | 99.8% | 66.8% | 2.81% | 2.42% | 256ms | 362ms | 417ms |"
+    },
+    {
+      "vendor": "AWS",
+      "model_name": "N/A",
+      "model": "AWS — N/A",
+      "transcript_rate": 1.0,
+      "perfect_rate": 0.7909999999999999,
+      "mean_wer": 0.0126,
+      "wer": 0.013500000000000002,
+      "ttfs": 1136.0,
+      "ttfs_p95": 1527.0,
+      "ttfs_p99": 1897.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| AWS | N/A | 100.0% | 79.1% | 1.26% | 1.35% | 1136ms | 1527ms | 1897ms |"
+    },
+    {
+      "vendor": "Azure",
+      "model_name": "N/A",
+      "model": "Azure — N/A",
+      "transcript_rate": 1.0,
+      "perfect_rate": 0.835,
+      "mean_wer": 0.0098,
+      "wer": 0.0101,
+      "ttfs": 1016.0,
+      "ttfs_p95": 1345.0,
+      "ttfs_p99": 1791.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| Azure | N/A | 100.0% | 83.5% | 0.98% | 1.01% | 1016ms | 1345ms | 1791ms |"
+    },
+    {
+      "vendor": "Cartesia",
+      "model_name": "ink-2",
+      "model": "Cartesia — ink-2",
+      "transcript_rate": 1.0,
+      "perfect_rate": 0.836,
+      "mean_wer": 0.011399999999999999,
+      "wer": 0.0102,
+      "ttfs": 299.0,
+      "ttfs_p95": 328.0,
+      "ttfs_p99": 1584.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| Cartesia | ink-2 | 100.0% | 83.6% | 1.14% | 1.02% | 299ms | 328ms | 1584ms |"
+    },
+    {
+      "vendor": "Cartesia",
+      "model_name": "ink-whisper",
+      "model": "Cartesia — ink-whisper",
+      "transcript_rate": 0.9990000000000001,
+      "perfect_rate": 0.614,
+      "mean_wer": 0.0332,
+      "wer": 0.0378,
+      "ttfs": 266.0,
+      "ttfs_p95": 364.0,
+      "ttfs_p99": 898.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| Cartesia | ink-whisper | 99.9% | 61.4% | 3.32% | 3.78% | 266ms | 364ms | 898ms |"
+    },
+    {
+      "vendor": "Deepgram",
+      "model_name": "nova-3-general",
+      "model": "Deepgram — nova-3-general",
+      "transcript_rate": 0.998,
+      "perfect_rate": 0.777,
+      "mean_wer": 0.0132,
+      "wer": 0.0137,
+      "ttfs": 247.0,
+      "ttfs_p95": 298.0,
+      "ttfs_p99": 326.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| Deepgram | nova-3-general | 99.8% | 77.7% | 1.32% | 1.37% | 247ms | 298ms | 326ms |"
+    },
+    {
+      "vendor": "ElevenLabs",
+      "model_name": "scribe_v2_realtime",
+      "model": "ElevenLabs — scribe_v2_realtime",
+      "transcript_rate": 0.997,
+      "perfect_rate": 0.8029999999999999,
+      "mean_wer": 0.0305,
+      "wer": 0.0313,
+      "ttfs": 281.0,
+      "ttfs_p95": 348.0,
+      "ttfs_p99": 407.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| ElevenLabs | scribe_v2_realtime | 99.7% | 80.3% | 3.05% | 3.13% | 281ms | 348ms | 407ms |"
+    },
+    {
+      "vendor": "Google",
+      "model_name": "gemini-3.5-transcribe-live",
+      "model": "Google — gemini-3.5-transcribe-live",
+      "transcript_rate": 0.9990000000000001,
+      "perfect_rate": 0.7829999999999999,
+      "mean_wer": 0.019299999999999998,
+      "wer": 0.0197,
+      "ttfs": 458.0,
+      "ttfs_p95": 532.0,
+      "ttfs_p99": 599.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| Google | gemini-3.5-transcribe-live | 99.9% | 78.3% | 1.93% | 1.97% | 458ms | 532ms | 599ms |"
+    },
+    {
+      "vendor": "Google",
+      "model_name": "latest-long",
+      "model": "Google — latest-long",
+      "transcript_rate": 1.0,
+      "perfect_rate": 0.6970000000000001,
+      "mean_wer": 0.0246,
+      "wer": 0.0246,
+      "ttfs": 878.0,
+      "ttfs_p95": 1155.0,
+      "ttfs_p99": 1570.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| Google | latest-long | 100.0% | 69.7% | 2.46% | 2.46% | 878ms | 1155ms | 1570ms |"
+    },
+    {
+      "vendor": "Gradium",
+      "model_name": "default",
+      "model": "Gradium — default",
+      "transcript_rate": 0.993,
+      "perfect_rate": 0.6559999999999999,
+      "mean_wer": 0.0381,
+      "wer": 0.0379,
+      "ttfs": 585.0,
+      "ttfs_p95": 614.0,
+      "ttfs_p99": 623.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| Gradium | default | 99.3% | 65.6% | 3.81% | 3.79% | 585ms | 614ms | 623ms |"
+    },
+    {
+      "vendor": "Meta",
+      "model_name": "muse-voice-transcribe-1.0",
+      "model": "Meta — muse-voice-transcribe-1.0",
+      "transcript_rate": 0.9990000000000001,
+      "perfect_rate": 0.895,
+      "mean_wer": 0.008,
+      "wer": 0.0073,
+      "ttfs": 392.0,
+      "ttfs_p95": 1292.0,
+      "ttfs_p99": 1922.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| Meta | muse-voice-transcribe-1.0 | 99.9% | 89.5% | 0.80% | 0.73% | 392ms | 1292ms | 1922ms |"
+    },
+    {
+      "vendor": "Mistral",
+      "model_name": "voxtral-mini-transcribe-realtime-2602",
+      "model": "Mistral — voxtral-mini-transcribe-realtime-2602",
+      "transcript_rate": 0.993,
+      "perfect_rate": 0.677,
+      "mean_wer": 0.0449,
+      "wer": 0.051100000000000007,
+      "ttfs": 525.0,
+      "ttfs_p95": 973.0,
+      "ttfs_p99": 1913.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| Mistral | voxtral-mini-transcribe-realtime-2602 | 99.3% | 67.7% | 4.49% | 5.11% | 525ms | 973ms | 1913ms |"
+    },
+    {
+      "vendor": "NVIDIA",
+      "model_name": "Nemotron 3.0 ASR (en)",
+      "model": "NVIDIA — Nemotron 3.0 ASR (en)",
+      "transcript_rate": 1.0,
+      "perfect_rate": 0.7609999999999999,
+      "mean_wer": 0.019,
+      "wer": 0.0195,
+      "ttfs": 221.0,
+      "ttfs_p95": 238.0,
+      "ttfs_p99": 252.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 4.5",
+      "comparable_accuracy": false,
+      "legacy_judge": true,
+      "raw_markdown": "| NVIDIA | Nemotron 3.0 ASR (en) | 100.0% | 76.1% | 1.90%† | 1.95%† | 221ms | 238ms | 252ms |"
+    },
+    {
+      "vendor": "NVIDIA",
+      "model_name": "Nemotron 3.5 ASR (multilingual)",
+      "model": "NVIDIA — Nemotron 3.5 ASR (multilingual)",
+      "transcript_rate": 0.996,
+      "perfect_rate": 0.62,
+      "mean_wer": 0.0454,
+      "wer": 0.0458,
+      "ttfs": 236.0,
+      "ttfs_p95": 253.0,
+      "ttfs_p99": 266.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 4.5",
+      "comparable_accuracy": false,
+      "legacy_judge": true,
+      "raw_markdown": "| NVIDIA | Nemotron 3.5 ASR (multilingual) | 99.6% | 62.0% | 4.54%† | 4.58%† | 236ms | 253ms | 266ms |"
+    },
+    {
+      "vendor": "OpenAI",
+      "model_name": "gpt-4o-transcribe",
+      "model": "OpenAI — gpt-4o-transcribe",
+      "transcript_rate": 0.993,
+      "perfect_rate": 0.757,
+      "mean_wer": 0.031,
+      "wer": 0.029500000000000002,
+      "ttfs": 637.0,
+      "ttfs_p95": 965.0,
+      "ttfs_p99": 1655.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| OpenAI | gpt-4o-transcribe | 99.3% | 75.7% | 3.10% | 2.95% | 637ms | 965ms | 1655ms |"
+    },
+    {
+      "vendor": "OpenAI",
+      "model_name": "gpt-realtime-whisper",
+      "model": "OpenAI — gpt-realtime-whisper",
+      "transcript_rate": 1.0,
+      "perfect_rate": 0.733,
+      "mean_wer": 0.0241,
+      "wer": 0.023,
+      "ttfs": 740.0,
+      "ttfs_p95": 878.0,
+      "ttfs_p99": 1080.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| OpenAI | gpt-realtime-whisper | 100.0% | 73.3% | 2.41% | 2.30% | 740ms | 878ms | 1080ms |"
+    },
+    {
+      "vendor": "Smallest AI",
+      "model_name": "pulse",
+      "model": "Smallest AI — pulse",
+      "transcript_rate": 1.0,
+      "perfect_rate": 0.74,
+      "mean_wer": 0.018500000000000003,
+      "wer": 0.0194,
+      "ttfs": 398.0,
+      "ttfs_p95": 533.0,
+      "ttfs_p99": 1593.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| Smallest AI | pulse | 100.0% | 74.0% | 1.85% | 1.94% | 398ms | 533ms | 1593ms |"
+    },
+    {
+      "vendor": "Speechmatics",
+      "model_name": "linden-1",
+      "model": "Speechmatics — linden-1",
+      "transcript_rate": 0.995,
+      "perfect_rate": 0.8390000000000001,
+      "mean_wer": 0.0111,
+      "wer": 0.0096,
+      "ttfs": 369.0,
+      "ttfs_p95": 438.0,
+      "ttfs_p99": 690.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| Speechmatics | linden-1 | 99.5% | 83.9% | 1.11% | 0.96% | 369ms | 438ms | 690ms |"
+    },
+    {
+      "vendor": "Speechmatics",
+      "model_name": "N/A",
+      "model": "Speechmatics — N/A",
+      "transcript_rate": 0.997,
+      "perfect_rate": 0.831,
+      "mean_wer": 0.011699999999999999,
+      "wer": 0.0096,
+      "ttfs": 495.0,
+      "ttfs_p95": 676.0,
+      "ttfs_p99": 736.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| Speechmatics | N/A | 99.7% | 83.1% | 1.17% | 0.96% | 495ms | 676ms | 736ms |"
+    },
+    {
+      "vendor": "xAI",
+      "model_name": "grok-voice-transcribe-2.0",
+      "model": "xAI — grok-voice-transcribe-2.0",
+      "transcript_rate": 0.998,
+      "perfect_rate": 0.894,
+      "mean_wer": 0.011200000000000002,
+      "wer": 0.0079,
+      "ttfs": 1322.0,
+      "ttfs_p95": 1895.0,
+      "ttfs_p99": 2148.0,
+      "origin": "Upstream aggregate",
+      "raw_per_clip_available": false,
+      "judge": "Claude Sonnet 5.5",
+      "comparable_accuracy": true,
+      "legacy_judge": false,
+      "raw_markdown": "| xAI | grok-voice-transcribe-2.0 | 99.8% | 89.4% | 1.12% | 0.79% | 1322ms | 1895ms | 2148ms |"
+    }
+  ],
+  "upstream": "https://github.com/pipecat-ai/stt-benchmark/blob/d4d85a9ec7d3465671ae5e18bf725c013cdfb4ca/README.md"
+}

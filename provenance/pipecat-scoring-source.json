@@ -1,0 +1,8 @@
+{
+  "repository": "pipecat-ai/smart-turn",
+  "revision": "4e12f2bbef04e47c348836f57100885f6973a5ae",
+  "url": "https://raw.githubusercontent.com/pipecat-ai/smart-turn/4e12f2bbef04e47c348836f57100885f6973a5ae/benchmark.py",
+  "sha256": "500e3e5f263e8ded4fda07309e1b06fd06f56313013a42717fafa5ff24246c92",
+  "extracted_function": "compute_metrics_with_confusion",
+  "note": "Official metric definitions only; predictions come from the streaming adapter, not official ONNX supplied-prefix inference"
+}

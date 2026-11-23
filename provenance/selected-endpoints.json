@@ -1,0 +1,22 @@
+{
+  "livekit": {
+    "inputs": 2288,
+    "configuration": "200/.65/3000/.65",
+    "mode": "omitted",
+    "native_median_ms": 301.0431969969067,
+    "false_cutoffs": 291,
+    "hold_spans": 2305,
+    "detected_endings": 1721,
+    "true_endings": 1744
+  },
+  "smart_turn": {
+    "inputs": 5367,
+    "configuration": "80/.65/1800/.30",
+    "mode": "omitted",
+    "response_budgets_ms": [
+      600,
+      1000
+    ]
+  },
+  "source": "Previously recorded complete selected runs; no new provider requests."
+}

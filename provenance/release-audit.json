@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "elapsed_seconds": 24.920030000037514,
+  "track_model_coverage": {
+    "historical/asr/aircaps_aircaps-live-1": {
+      "records": 9211,
+      "event_traces": 9211,
+      "missing_event_traces": 0
+    },
+    "historical/asr/assemblyai_universal-3-5-pro": {
+      "records": 9211,
+      "event_traces": 9204,
+      "missing_event_traces": 7
+    },
+    "historical/asr/assemblyai_universal-3-6-pro": {
+      "records": 9211,
+      "event_traces": 9205,
+      "missing_event_traces": 6
+    },
+    "historical/asr/deepgram_flux-general-en": {
+      "records": 9211,
+      "event_traces": 9211,
+      "missing_event_traces": 0
+    },
+    "historical/asr/deepgram_nova-3": {
+      "records": 9211,
+      "event_traces": 9211,
+      "missing_event_traces": 0
+    },
+    "historical/asr/elevenlabs_scribe_v2_realtime": {
+      "records": 9211,
+      "event_traces": 9211,
+      "missing_event_traces": 0
+    },
+    "historical/asr/elevenlabs_scribe_v3_live": {
+      "records": 9211,
+      "event_traces": 9211,
+      "missing_event_traces": 0
+    },
+    "historical/asr/mai_mai-transcribe-2-streaming": {
+      "records": 9211,
+      "event_traces": 9203,
+      "missing_event_traces": 8
+    },
+    "turns/livekit/aircaps_aircaps-live-1": {
+      "records": 2288,
+      "event_traces": 2288,
+      "missing_event_traces": 0
+    },
+    "turns/livekit/assemblyai_universal-3-5-pro": {
+      "records": 2288,
+      "event_traces": 2288,
+      "missing_event_traces": 0
+    },
+    "turns/livekit/assemblyai_universal-3-6-pro": {
+      "records": 2288,
+      "event_traces": 2288,
+      "missing_event_traces": 0
+    },
+    "turns/livekit/deepgram_flux-general-en": {
+      "records": 2288,
+      "event_traces": 2288,
+      "missing_event_traces": 0
+    },
+    "turns/smart_turn/aircaps_aircaps-live-1": {
+      "records": 5367,
+      "event_traces": 5367,
+      "missing_event_traces": 0
+    },
+    "turns/smart_turn/assemblyai_universal-3-5-pro": {
+      "records": 5367,
+      "event_traces": 5367,
+      "missing_event_traces": 0
+    },
+    "turns/smart_turn/assemblyai_universal-3-6-pro": {
+      "records": 5367,
+      "event_traces": 5367,
+      "missing_event_traces": 0
+    },
+    "turns/smart_turn/deepgram_flux-general-en": {
+      "records": 5367,
+      "event_traces": 5367,
+      "missing_event_traces": 0
+    }
+  },
+  "no_api_calls_made": true
+}

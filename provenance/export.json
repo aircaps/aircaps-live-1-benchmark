@@ -1,0 +1,16 @@
+{
+  "benchmark_region": "us-east-2",
+  "benchmark_instance_type": "c7i.4xlarge",
+  "track_inputs": {
+    "historical/asr": 9211,
+    "turns/livekit": 2288,
+    "turns/smart_turn": 5367
+  },
+  "redactions": [
+    "credential fields",
+    "account quotas",
+    "private deployment hostname",
+    "internal experiment-stage labels"
+  ],
+  "note": "Historical page evidence and its two endpoint operating points. Completed official-harness AirCaps Pipecat run is separately archived; external Pipecat rows are attributed aggregates."
+}

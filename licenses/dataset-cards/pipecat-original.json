@@ -1,0 +1,52 @@
+{
+  "id": "pipecat-ai/stt-benchmark-data",
+  "sha": "ea9d721efd21d6a15d7956f804070ac560936fda",
+  "cardData": {
+    "dataset_info": {
+      "features": [
+        {
+          "name": "sample_id",
+          "dtype": "string"
+        },
+        {
+          "name": "audio",
+          "dtype": {
+            "audio": {
+              "sampling_rate": 16000
+            }
+          }
+        },
+        {
+          "name": "duration_seconds",
+          "dtype": "float64"
+        },
+        {
+          "name": "transcription",
+          "dtype": "string"
+        }
+      ],
+      "splits": [
+        {
+          "name": "train",
+          "num_bytes": 307216461,
+          "num_examples": 1000
+        }
+      ],
+      "download_size": 298200221,
+      "dataset_size": 307216461
+    },
+    "configs": [
+      {
+        "config_name": "default",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/train-*"
+          }
+        ]
+      }
+    ],
+    "license": "cc-by-4.0"
+  },
+  "url": "https://huggingface.co/api/datasets/pipecat-ai/stt-benchmark-data/revision/ea9d721efd21d6a15d7956f804070ac560936fda"
+}

@@ -1,0 +1,106 @@
+{
+  "turns/livekit/assemblyai_universal-3-5-pro": {
+    "expected": 2288,
+    "present": 2288,
+    "missing_ids": []
+  },
+  "turns/smart_turn/assemblyai_universal-3-5-pro": {
+    "expected": 5367,
+    "present": 5367,
+    "missing_ids": []
+  },
+  "turns/livekit/assemblyai_universal-3-6-pro": {
+    "expected": 2288,
+    "present": 2288,
+    "missing_ids": []
+  },
+  "turns/smart_turn/assemblyai_universal-3-6-pro": {
+    "expected": 5367,
+    "present": 5367,
+    "missing_ids": []
+  },
+  "turns/livekit/deepgram_flux-general-en": {
+    "expected": 2288,
+    "present": 2288,
+    "missing_ids": []
+  },
+  "turns/smart_turn/deepgram_flux-general-en": {
+    "expected": 5367,
+    "present": 5367,
+    "missing_ids": []
+  },
+  "turns/livekit/aircaps_aircaps-live-1": {
+    "expected": 2288,
+    "present": 2288,
+    "missing_ids": []
+  },
+  "turns/smart_turn/aircaps_aircaps-live-1": {
+    "expected": 5367,
+    "present": 5367,
+    "missing_ids": []
+  },
+  "historical/asr/assemblyai_universal-3-5-pro": {
+    "expected": 9211,
+    "present": 9204,
+    "missing_ids": [
+      "coval/stt-v3/audio/0019.wav",
+      "coval/stt-v3/audio/0021.wav",
+      "coval/stt-v3/audio/0022.wav",
+      "coval/stt-v3/audio/0023.wav",
+      "coval/stt-v3/audio/0025.wav",
+      "coval/stt-v3/audio/0026.wav",
+      "coval/stt-v3/audio/0027.wav"
+    ]
+  },
+  "historical/asr/assemblyai_universal-3-6-pro": {
+    "expected": 9211,
+    "present": 9205,
+    "missing_ids": [
+      "coval/stt-v3/audio/0019.wav",
+      "coval/stt-v3/audio/0021.wav",
+      "coval/stt-v3/audio/0022.wav",
+      "coval/stt-v3/audio/0023.wav",
+      "coval/stt-v3/audio/0026.wav",
+      "coval/stt-v3/audio/0027.wav"
+    ]
+  },
+  "historical/asr/deepgram_flux-general-en": {
+    "expected": 9211,
+    "present": 9211,
+    "missing_ids": []
+  },
+  "historical/asr/aircaps_aircaps-live-1": {
+    "expected": 9211,
+    "present": 9211,
+    "missing_ids": []
+  },
+  "historical/asr/elevenlabs_scribe_v2_realtime": {
+    "expected": 9211,
+    "present": 9211,
+    "missing_ids": []
+  },
+  "historical/asr/elevenlabs_scribe_v3_live": {
+    "expected": 9211,
+    "present": 9211,
+    "missing_ids": []
+  },
+  "historical/asr/deepgram_nova-3": {
+    "expected": 9211,
+    "present": 9211,
+    "missing_ids": []
+  },
+  "historical/asr/mai_mai-transcribe-2-streaming": {
+    "expected": 9211,
+    "present": 9203,
+    "missing_ids": [
+      "coval/stt-wildasr-accent/audio/0630.wav",
+      "coval/stt-wildasr-clipping/audio/0004.wav",
+      "coval/stt-wildasr-clipping/audio/0011.wav",
+      "coval/stt-wildasr-farfield/audio/0055.wav",
+      "pipecat/0cec89f8-8c5d-a03e-6723-6d365c494959",
+      "primock57/day2_consultation10_doctor@294.621578085441:297.830709885464",
+      "primock57/day4_consultation08_doctor@668.587589:677.95999348269",
+      "primock57/day5_consultation01_doctor@317.044009342543:324.053606683388"
+    ]
+  }
+}

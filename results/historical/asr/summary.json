@@ -1,0 +1,2638 @@
+{
+  "track": "historical/asr",
+  "clips": 9211,
+  "results": [
+    {
+      "model": "AirCaps Live 1",
+      "model_key": "aircaps_aircaps-live-1",
+      "clips": 9211,
+      "metrics": {
+        "attempted": 9211,
+        "successful": 9211,
+        "failed": 0,
+        "scored": 9205,
+        "reference_words": 154661,
+        "substitutions": 2678,
+        "deletions": 1803,
+        "insertions": 1161,
+        "wer": 0.036479784819702446,
+        "mean_clip_wer": 0.044555083403566745,
+        "ttfs_ms": {
+          "median": 37.55382200142776,
+          "p95": 51.50554500028193,
+          "p99": 64.70024289992564
+        },
+        "ttft_ms": {
+          "median": 1059.8747900003218,
+          "p95": 2080.894829600493,
+          "p99": 4067.3178729203937
+        },
+        "final_before_endpoint": 0
+      },
+      "cohorts": {
+        "livekit-accented": {
+          "attempted": 800,
+          "successful": 800,
+          "failed": 0,
+          "scored": 798,
+          "reference_words": 9756,
+          "substitutions": 254,
+          "deletions": 107,
+          "insertions": 149,
+          "wer": 0.05227552275522755,
+          "mean_clip_wer": 0.06409156501046355,
+          "ttfs_ms": {
+            "median": 40.766003500721126,
+            "p95": 50.9100548502829,
+            "p99": 59.957214849655415
+          },
+          "ttft_ms": {
+            "median": 1046.4883975000703,
+            "p95": 1072.6221122991774,
+            "p99": 2051.5756850507933
+          },
+          "final_before_endpoint": 0
+        },
+        "livekit-general": {
+          "attempted": 400,
+          "successful": 400,
+          "failed": 0,
+          "scored": 400,
+          "reference_words": 8016,
+          "substitutions": 246,
+          "deletions": 53,
+          "insertions": 264,
+          "wer": 0.07023453093812375,
+          "mean_clip_wer": 0.10711472412817163,
+          "ttfs_ms": {
+            "median": 39.135983000051056,
+            "p95": 51.56366859946501,
+            "p99": 55.91079874962814
+          },
+          "ttft_ms": {
+            "median": 3046.5370929996425,
+            "p95": 8045.255175549937,
+            "p99": 13047.56618767
+          },
+          "final_before_endpoint": 0
+        },
+        "livekit-short_turns": {
+          "attempted": 544,
+          "successful": 544,
+          "failed": 0,
+          "scored": 540,
+          "reference_words": 1358,
+          "substitutions": 32,
+          "deletions": 14,
+          "insertions": 12,
+          "wer": 0.042709867452135494,
+          "mean_clip_wer": 0.04743793621344641,
+          "ttfs_ms": {
+            "median": 39.864643000328215,
+            "p95": 48.25996999925337,
+            "p99": 53.66733779857898
+          },
+          "ttft_ms": {
+            "median": 1046.825002499645,
+            "p95": 1067.052863450681,
+            "p99": 1545.2730939601793
+          },
+          "final_before_endpoint": 0
+        },
+        "pipecat": {
+          "attempted": 1000,
+          "successful": 1000,
+          "failed": 0,
+          "scored": 1000,
+          "reference_words": 23734,
+          "substitutions": 202,
+          "deletions": 84,
+          "insertions": 74,
+          "wer": 0.01516811325524564,
+          "mean_clip_wer": 0.01776464806703208,
+          "ttfs_ms": {
+            "median": 37.390485500509385,
+            "p95": 46.756950099461385,
+            "p99": 60.17597354081772
+          },
+          "ttft_ms": {
+            "median": 2058.871227499367,
+            "p95": 3054.523130349844,
+            "p99": 5051.919155511241
+          },
+          "final_before_endpoint": 0
+        },
+        "primock57": {
+          "attempted": 3084,
+          "successful": 3084,
+          "failed": 0,
+          "scored": 3084,
+          "reference_words": 49133,
+          "substitutions": 1111,
+          "deletions": 991,
+          "insertions": 464,
+          "wer": 0.05222559176113813,
+          "mean_clip_wer": 0.05935250199007237,
+          "ttfs_ms": {
+            "median": 37.14371050045884,
+            "p95": 51.48473644831029,
+            "p99": 66.39829014045979
+          },
+          "ttft_ms": {
+            "median": 1051.9288329996925,
+            "p95": 1086.369455348722,
+            "p99": 2067.73423675073
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-v3": {
+          "attempted": 877,
+          "successful": 877,
+          "failed": 0,
+          "scored": 877,
+          "reference_words": 20377,
+          "substitutions": 127,
+          "deletions": 51,
+          "insertions": 51,
+          "wer": 0.011238160671345143,
+          "mean_clip_wer": 0.013128808104911389,
+          "ttfs_ms": {
+            "median": 36.84554900019066,
+            "p95": 49.8922969999512,
+            "p99": 60.913934240034024
+          },
+          "ttft_ms": {
+            "median": 2059.06527500008,
+            "p95": 3038.9761647999876,
+            "p99": 3324.180774480055
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-accent": {
+          "attempted": 844,
+          "successful": 844,
+          "failed": 0,
+          "scored": 844,
+          "reference_words": 8909,
+          "substitutions": 145,
+          "deletions": 20,
+          "insertions": 13,
+          "wer": 0.019979795712201143,
+          "mean_clip_wer": 0.020719880435520248,
+          "ttfs_ms": {
+            "median": 43.43980999988162,
+            "p95": 59.90236299983277,
+            "p99": 72.88757235999121
+          },
+          "ttft_ms": {
+            "median": 1066.559008000013,
+            "p95": 1085.3906070499534,
+            "p99": 1100.3584099999898
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-clean": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 67,
+          "deletions": 16,
+          "insertions": 16,
+          "wer": 0.017796153154772603,
+          "mean_clip_wer": 0.018097372398589072,
+          "ttfs_ms": {
+            "median": 36.864952000087214,
+            "p95": 47.59406779985511,
+            "p99": 61.05315691991579
+          },
+          "ttft_ms": {
+            "median": 1061.2451530000726,
+            "p95": 2068.7683330000255,
+            "p99": 2080.7099040800495
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-clipping": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 133,
+          "deletions": 26,
+          "insertions": 28,
+          "wer": 0.03361495595901492,
+          "mean_clip_wer": 0.03399443597102085,
+          "ttfs_ms": {
+            "median": 37.24108200003684,
+            "p95": 50.97780679989228,
+            "p99": 62.52927036017354
+          },
+          "ttft_ms": {
+            "median": 1060.3651599994919,
+            "p95": 2072.766696800136,
+            "p99": 2086.3080750796144
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-farfield": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 103,
+          "deletions": 22,
+          "insertions": 28,
+          "wer": 0.02750314578464857,
+          "mean_clip_wer": 0.028187838317033233,
+          "ttfs_ms": {
+            "median": 36.995133999880636,
+            "p95": 50.67977719991177,
+            "p99": 59.95023247956853
+          },
+          "ttft_ms": {
+            "median": 1066.9213299997864,
+            "p95": 2072.4514091994934,
+            "p99": 2091.41768616013
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-noisegap": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 73,
+          "deletions": 10,
+          "insertions": 18,
+          "wer": 0.018155671400323568,
+          "mean_clip_wer": 0.019038068392325264,
+          "ttfs_ms": {
+            "median": 36.78573399974994,
+            "p95": 47.81214779923174,
+            "p99": 64.45717176011392
+          },
+          "ttft_ms": {
+            "median": 1059.9069079999026,
+            "p95": 2067.695337600162,
+            "p99": 2326.1638255599332
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-phonecodec": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 82,
+          "deletions": 14,
+          "insertions": 21,
+          "wer": 0.02103181736473126,
+          "mean_clip_wer": 0.02142535145083432,
+          "ttfs_ms": {
+            "median": 36.94173199983197,
+            "p95": 45.12330960005783,
+            "p99": 58.04732068012529
+          },
+          "ttft_ms": {
+            "median": 1065.0806020003074,
+            "p95": 2073.1094627994025,
+            "p99": 2090.258443039311
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-reverb": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 103,
+          "deletions": 395,
+          "insertions": 23,
+          "wer": 0.09365450296602552,
+          "mean_clip_wer": 0.0984037944124734,
+          "ttfs_ms": {
+            "median": 37.41155300031096,
+            "p95": 52.50155460034874,
+            "p99": 72.72802068018792
+          },
+          "ttft_ms": {
+            "median": 1060.1179549994413,
+            "p95": 2073.6244670000815,
+            "p99": 2092.4919644398324
+          },
+          "final_before_endpoint": 0
+        }
+      }
+    },
+    {
+      "model": "AssemblyAI Universal-3.5 Pro",
+      "model_key": "assemblyai_universal-3-5-pro",
+      "clips": 9211,
+      "metrics": {
+        "attempted": 9211,
+        "successful": 9209,
+        "failed": 2,
+        "scored": 9204,
+        "reference_words": 154632,
+        "substitutions": 2757,
+        "deletions": 2810,
+        "insertions": 1274,
+        "wer": 0.04424051942676807,
+        "mean_clip_wer": 0.0607866927726333,
+        "ttfs_ms": {
+          "median": 89.05373999914445,
+          "p95": 155.1063710001472,
+          "p99": 209.69132928050385
+        },
+        "ttft_ms": {
+          "median": 715.9569499999634,
+          "p95": 1918.1594775997837,
+          "p99": 3718.3111209203344
+        },
+        "final_before_endpoint": 770
+      },
+      "cohorts": {
+        "livekit-accented": {
+          "attempted": 800,
+          "successful": 800,
+          "failed": 0,
+          "scored": 798,
+          "reference_words": 9756,
+          "substitutions": 374,
+          "deletions": 206,
+          "insertions": 248,
+          "wer": 0.08487084870848709,
+          "mean_clip_wer": 0.1466979420896879,
+          "ttfs_ms": {
+            "median": 86.05000800071139,
+            "p95": 141.71259194990853,
+            "p99": 190.59575656125156
+          },
+          "ttft_ms": {
+            "median": 718.0265285005589,
+            "p95": 819.0586981495471,
+            "p99": 920.0515609695958
+          },
+          "final_before_endpoint": 5
+        },
+        "livekit-general": {
+          "attempted": 400,
+          "successful": 400,
+          "failed": 0,
+          "scored": 400,
+          "reference_words": 8016,
+          "substitutions": 275,
+          "deletions": 120,
+          "insertions": 292,
+          "wer": 0.08570359281437126,
+          "mean_clip_wer": 0.15831945074171525,
+          "ttfs_ms": {
+            "median": 87.94411900089472,
+            "p95": 155.9680196501176,
+            "p99": 196.41875578028686
+          },
+          "ttft_ms": {
+            "median": 2417.1108154996546,
+            "p95": 7318.576029299129,
+            "p99": 12719.533055669543
+          },
+          "final_before_endpoint": 0
+        },
+        "livekit-short_turns": {
+          "attempted": 544,
+          "successful": 543,
+          "failed": 1,
+          "scored": 540,
+          "reference_words": 1358,
+          "substitutions": 31,
+          "deletions": 18,
+          "insertions": 8,
+          "wer": 0.04197349042709867,
+          "mean_clip_wer": 0.05194805194805195,
+          "ttfs_ms": {
+            "median": 76.91269799943257,
+            "p95": 127.31395669907212,
+            "p99": 171.09693381960824
+          },
+          "ttft_ms": {
+            "median": 717.9589659990597,
+            "p95": 819.0105582001252,
+            "p99": 915.8207262196811
+          },
+          "final_before_endpoint": 2
+        },
+        "pipecat": {
+          "attempted": 1000,
+          "successful": 1000,
+          "failed": 0,
+          "scored": 1000,
+          "reference_words": 23734,
+          "substitutions": 233,
+          "deletions": 133,
+          "insertions": 78,
+          "wer": 0.01870733968146962,
+          "mean_clip_wer": 0.023307911204714458,
+          "ttfs_ms": {
+            "median": 0.0,
+            "p95": 113.70121774980358,
+            "p99": 150.1146970605077
+          },
+          "ttft_ms": {
+            "median": 1218.4856929998205,
+            "p95": 2518.068037499688,
+            "p99": 4219.443692179911
+          },
+          "final_before_endpoint": 677
+        },
+        "primock57": {
+          "attempted": 3084,
+          "successful": 3084,
+          "failed": 0,
+          "scored": 3084,
+          "reference_words": 49133,
+          "substitutions": 1107,
+          "deletions": 1635,
+          "insertions": 465,
+          "wer": 0.06527181324160951,
+          "mean_clip_wer": 0.07493991094715174,
+          "ttfs_ms": {
+            "median": 96.20429299957323,
+            "p95": 176.8018987982941,
+            "p99": 236.3542318702639
+          },
+          "ttft_ms": {
+            "median": 516.7889534986898,
+            "p95": 718.0722387489368,
+            "p99": 918.5241593510182
+          },
+          "final_before_endpoint": 73
+        },
+        "stt-v3": {
+          "attempted": 877,
+          "successful": 877,
+          "failed": 0,
+          "scored": 877,
+          "reference_words": 20377,
+          "substitutions": 142,
+          "deletions": 97,
+          "insertions": 54,
+          "wer": 0.014378956666830249,
+          "mean_clip_wer": 0.018015849287337477,
+          "ttfs_ms": {
+            "median": 94.02268500025457,
+            "p95": 141.78501180003875,
+            "p99": 174.87537704002534
+          },
+          "ttft_ms": {
+            "median": 1218.3403889999909,
+            "p95": 2139.1103377998593,
+            "p99": 3190.622482759939
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-accent": {
+          "attempted": 844,
+          "successful": 844,
+          "failed": 0,
+          "scored": 844,
+          "reference_words": 8909,
+          "substitutions": 161,
+          "deletions": 31,
+          "insertions": 24,
+          "wer": 0.024245145358626107,
+          "mean_clip_wer": 0.025982857321719878,
+          "ttfs_ms": {
+            "median": 88.95884099956675,
+            "p95": 141.54404119944957,
+            "p99": 175.20425245003915
+          },
+          "ttft_ms": {
+            "median": 418.35243250011445,
+            "p95": 420.0445430999707,
+            "p99": 421.10727623990897
+          },
+          "final_before_endpoint": 1
+        },
+        "stt-wildasr-clean": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 46,
+          "deletions": 15,
+          "insertions": 14,
+          "wer": 0.013481934208161064,
+          "mean_clip_wer": 0.014154098468003954,
+          "ttfs_ms": {
+            "median": 93.3837580000727,
+            "p95": 141.4858812002421,
+            "p99": 197.1257168000739
+          },
+          "ttft_ms": {
+            "median": 918.514924000192,
+            "p95": 1617.6813069998389,
+            "p99": 2018.4629159999713
+          },
+          "final_before_endpoint": 1
+        },
+        "stt-wildasr-clipping": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 77,
+          "deletions": 13,
+          "insertions": 14,
+          "wer": 0.018694948768650008,
+          "mean_clip_wer": 0.019122489952123532,
+          "ttfs_ms": {
+            "median": 96.1883999998463,
+            "p95": 138.53158140027517,
+            "p99": 176.4914646802211
+          },
+          "ttft_ms": {
+            "median": 918.7611540000944,
+            "p95": 1717.9211346003285,
+            "p99": 2118.456944679747
+          },
+          "final_before_endpoint": 1
+        },
+        "stt-wildasr-farfield": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 77,
+          "deletions": 23,
+          "insertions": 16,
+          "wer": 0.020852058241955778,
+          "mean_clip_wer": 0.021595968776393998,
+          "ttfs_ms": {
+            "median": 95.78627799965034,
+            "p95": 149.55055900009023,
+            "p99": 183.39635767966683
+          },
+          "ttft_ms": {
+            "median": 920.4292129998066,
+            "p95": 1719.1884066005514,
+            "p99": 2118.278154639811
+          },
+          "final_before_endpoint": 1
+        },
+        "stt-wildasr-noisegap": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 56,
+          "deletions": 17,
+          "insertions": 27,
+          "wer": 0.017975912277548085,
+          "mean_clip_wer": 0.019454343329080796,
+          "ttfs_ms": {
+            "median": 90.81816500020068,
+            "p95": 144.96767779965012,
+            "p99": 208.99235571996542
+          },
+          "ttft_ms": {
+            "median": 918.8183929991283,
+            "p95": 1718.1566477996967,
+            "p99": 2042.578762640188
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-phonecodec": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 55,
+          "deletions": 17,
+          "insertions": 13,
+          "wer": 0.015279525435915873,
+          "mean_clip_wer": 0.01556749121837297,
+          "ttfs_ms": {
+            "median": 95.19979499964393,
+            "p95": 146.89981159990558,
+            "p99": 219.83969644028554
+          },
+          "ttft_ms": {
+            "median": 1017.4025260002963,
+            "p95": 1718.9590080000926,
+            "p99": 2042.610733759394
+          },
+          "final_before_endpoint": 1
+        },
+        "stt-wildasr-reverb": {
+          "attempted": 277,
+          "successful": 276,
+          "failed": 1,
+          "scored": 276,
+          "reference_words": 5534,
+          "substitutions": 123,
+          "deletions": 485,
+          "insertions": 21,
+          "wer": 0.11366100469822912,
+          "mean_clip_wer": 0.12301121541868039,
+          "ttfs_ms": {
+            "median": 94.68793799987907,
+            "p95": 149.90012500038574,
+            "p99": 190.41945649996705
+          },
+          "ttft_ms": {
+            "median": 919.1661430004388,
+            "p95": 1619.6456232503351,
+            "p99": 2043.278707249783
+          },
+          "final_before_endpoint": 8
+        }
+      }
+    },
+    {
+      "model": "AssemblyAI Universal-3.6 Pro",
+      "model_key": "assemblyai_universal-3-6-pro",
+      "clips": 9211,
+      "metrics": {
+        "attempted": 9211,
+        "successful": 9208,
+        "failed": 3,
+        "scored": 9204,
+        "reference_words": 154632,
+        "substitutions": 2559,
+        "deletions": 2899,
+        "insertions": 1201,
+        "wer": 0.04306353148119406,
+        "mean_clip_wer": 0.059013347325144745,
+        "ttfs_ms": {
+          "median": 99.40639299838949,
+          "p95": 211.3677822499994,
+          "p99": 318.13969583838116
+        },
+        "ttft_ms": {
+          "median": 717.0754129992929,
+          "p95": 2018.038772599266,
+          "p99": 3818.4815109496412
+        },
+        "final_before_endpoint": 741
+      },
+      "cohorts": {
+        "livekit-accented": {
+          "attempted": 800,
+          "successful": 800,
+          "failed": 0,
+          "scored": 798,
+          "reference_words": 9756,
+          "substitutions": 341,
+          "deletions": 218,
+          "insertions": 236,
+          "wer": 0.08148831488314884,
+          "mean_clip_wer": 0.14144165999600453,
+          "ttfs_ms": {
+            "median": 95.34427849939675,
+            "p95": 194.62200320040202,
+            "p99": 357.027592830891
+          },
+          "ttft_ms": {
+            "median": 718.5203930002899,
+            "p95": 918.3534833500744,
+            "p99": 1094.7800596502018
+          },
+          "final_before_endpoint": 6
+        },
+        "livekit-general": {
+          "attempted": 400,
+          "successful": 400,
+          "failed": 0,
+          "scored": 400,
+          "reference_words": 8016,
+          "substitutions": 273,
+          "deletions": 108,
+          "insertions": 289,
+          "wer": 0.08358283433133733,
+          "mean_clip_wer": 0.16037453864120058,
+          "ttfs_ms": {
+            "median": 93.95793149997189,
+            "p95": 189.2416121504538,
+            "p99": 336.92920484032584
+          },
+          "ttft_ms": {
+            "median": 2419.2695624997214,
+            "p95": 7318.473318450651,
+            "p99": 12819.719497010119
+          },
+          "final_before_endpoint": 1
+        },
+        "livekit-short_turns": {
+          "attempted": 544,
+          "successful": 542,
+          "failed": 2,
+          "scored": 540,
+          "reference_words": 1358,
+          "substitutions": 34,
+          "deletions": 14,
+          "insertions": 7,
+          "wer": 0.04050073637702504,
+          "mean_clip_wer": 0.05377241805813235,
+          "ttfs_ms": {
+            "median": 88.76074049931049,
+            "p95": 151.7126972995356,
+            "p99": 184.78627554015483
+          },
+          "ttft_ms": {
+            "median": 718.0245215004106,
+            "p95": 916.7392500998176,
+            "p99": 1015.6741031494857
+          },
+          "final_before_endpoint": 2
+        },
+        "pipecat": {
+          "attempted": 1000,
+          "successful": 1000,
+          "failed": 0,
+          "scored": 1000,
+          "reference_words": 23734,
+          "substitutions": 215,
+          "deletions": 123,
+          "insertions": 56,
+          "wer": 0.016600657284907727,
+          "mean_clip_wer": 0.02057970598689956,
+          "ttfs_ms": {
+            "median": 0.0,
+            "p95": 123.30671495028578,
+            "p99": 187.9933016200266
+          },
+          "ttft_ms": {
+            "median": 1317.2144755008048,
+            "p95": 2618.206497799565,
+            "p99": 4417.8451442292135
+          },
+          "final_before_endpoint": 655
+        },
+        "primock57": {
+          "attempted": 3084,
+          "successful": 3084,
+          "failed": 0,
+          "scored": 3084,
+          "reference_words": 49133,
+          "substitutions": 1042,
+          "deletions": 1764,
+          "insertions": 434,
+          "wer": 0.06594345958927808,
+          "mean_clip_wer": 0.07427678661331825,
+          "ttfs_ms": {
+            "median": 122.69067299894232,
+            "p95": 261.14820470020277,
+            "p99": 408.70024113171996
+          },
+          "ttft_ms": {
+            "median": 517.4248319999606,
+            "p95": 815.9194667496195,
+            "p99": 1035.712345099935
+          },
+          "final_before_endpoint": 62
+        },
+        "stt-v3": {
+          "attempted": 877,
+          "successful": 877,
+          "failed": 0,
+          "scored": 877,
+          "reference_words": 20377,
+          "substitutions": 135,
+          "deletions": 84,
+          "insertions": 41,
+          "wer": 0.012759483731658243,
+          "mean_clip_wer": 0.016722683006774396,
+          "ttfs_ms": {
+            "median": 103.16621500010115,
+            "p95": 173.33065380012152,
+            "p99": 232.74218975987438
+          },
+          "ttft_ms": {
+            "median": 1316.9473670000116,
+            "p95": 2218.3053153999026,
+            "p99": 3443.687468239942
+          },
+          "final_before_endpoint": 1
+        },
+        "stt-wildasr-accent": {
+          "attempted": 844,
+          "successful": 844,
+          "failed": 0,
+          "scored": 844,
+          "reference_words": 8909,
+          "substitutions": 133,
+          "deletions": 23,
+          "insertions": 15,
+          "wer": 0.019194073408912337,
+          "mean_clip_wer": 0.019608698962964365,
+          "ttfs_ms": {
+            "median": 94.00745000039024,
+            "p95": 161.95685599991515,
+            "p99": 226.87760415988075
+          },
+          "ttft_ms": {
+            "median": 418.33878850002293,
+            "p95": 420.5654967002829,
+            "p99": 519.0347724500225
+          },
+          "final_before_endpoint": 1
+        },
+        "stt-wildasr-clean": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 41,
+          "deletions": 17,
+          "insertions": 14,
+          "wer": 0.012942656839834622,
+          "mean_clip_wer": 0.013323229328540832,
+          "ttfs_ms": {
+            "median": 99.3620010003724,
+            "p95": 173.53236819963055,
+            "p99": 232.47035528007507
+          },
+          "ttft_ms": {
+            "median": 919.0435010000328,
+            "p95": 1719.6148471996821,
+            "p99": 2116.5558324801714
+          },
+          "final_before_endpoint": 1
+        },
+        "stt-wildasr-clipping": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 73,
+          "deletions": 15,
+          "insertions": 18,
+          "wer": 0.019054467014200972,
+          "mean_clip_wer": 0.019674210021650894,
+          "ttfs_ms": {
+            "median": 98.01217699987319,
+            "p95": 162.85363800016057,
+            "p99": 219.72931291991708
+          },
+          "ttft_ms": {
+            "median": 1117.3864680004044,
+            "p95": 1818.4648396005286,
+            "p99": 2142.720738559402
+          },
+          "final_before_endpoint": 1
+        },
+        "stt-wildasr-farfield": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 72,
+          "deletions": 24,
+          "insertions": 19,
+          "wer": 0.0206722991191803,
+          "mean_clip_wer": 0.021263452582631685,
+          "ttfs_ms": {
+            "median": 98.68866499982687,
+            "p95": 155.82439660011,
+            "p99": 255.59639724011507
+          },
+          "ttft_ms": {
+            "median": 1216.586358999848,
+            "p95": 1919.0019411998946,
+            "p99": 2242.634087719817
+          },
+          "final_before_endpoint": 2
+        },
+        "stt-wildasr-noisegap": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 52,
+          "deletions": 16,
+          "insertions": 35,
+          "wer": 0.01851518964587453,
+          "mean_clip_wer": 0.019078965616895052,
+          "ttfs_ms": {
+            "median": 98.74147400023503,
+            "p95": 158.85373199980674,
+            "p99": 214.43295807988764
+          },
+          "ttft_ms": {
+            "median": 1017.2714579994135,
+            "p95": 1818.037596999966,
+            "p99": 2242.7581727596053
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-phonecodec": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 51,
+          "deletions": 14,
+          "insertions": 15,
+          "wer": 0.014380729822038469,
+          "mean_clip_wer": 0.01456116425585292,
+          "ttfs_ms": {
+            "median": 99.3204730002617,
+            "p95": 163.68636719944334,
+            "p99": 248.9988106800595
+          },
+          "ttft_ms": {
+            "median": 1017.7078280003116,
+            "p95": 1817.866512600267,
+            "p99": 2118.498601559877
+          },
+          "final_before_endpoint": 1
+        },
+        "stt-wildasr-reverb": {
+          "attempted": 277,
+          "successful": 276,
+          "failed": 1,
+          "scored": 276,
+          "reference_words": 5534,
+          "substitutions": 97,
+          "deletions": 479,
+          "insertions": 22,
+          "wer": 0.1080592699674738,
+          "mean_clip_wer": 0.11543347065374072,
+          "ttfs_ms": {
+            "median": 100.11023049992218,
+            "p95": 177.00482350028324,
+            "p99": 235.8805352496347
+          },
+          "ttft_ms": {
+            "median": 1017.9950864999228,
+            "p95": 1818.1079982498431,
+            "p99": 2143.039971500002
+          },
+          "final_before_endpoint": 8
+        }
+      }
+    },
+    {
+      "model": "Deepgram Flux",
+      "model_key": "deepgram_flux-general-en",
+      "clips": 9211,
+      "metrics": {
+        "attempted": 9211,
+        "successful": 9081,
+        "failed": 130,
+        "scored": 9077,
+        "reference_words": 154373,
+        "substitutions": 6613,
+        "deletions": 3283,
+        "insertions": 1648,
+        "wer": 0.07477991617705168,
+        "mean_clip_wer": 0.09299709563530936,
+        "ttfs_ms": {
+          "median": 98.15796600014437,
+          "p95": 167.740350999793,
+          "p99": 192.84657800003515
+        },
+        "ttft_ms": {
+          "median": 815.4987019997861,
+          "p95": 2211.978148000071,
+          "p99": 3933.4264463999716
+        },
+        "final_before_endpoint": 0
+      },
+      "cohorts": {
+        "livekit-accented": {
+          "attempted": 800,
+          "successful": 764,
+          "failed": 36,
+          "scored": 762,
+          "reference_words": 9706,
+          "substitutions": 472,
+          "deletions": 245,
+          "insertions": 156,
+          "wer": 0.08994436431073563,
+          "mean_clip_wer": 0.14063727334859655,
+          "ttfs_ms": {
+            "median": 95.03454449998117,
+            "p95": 163.43815319992248,
+            "p99": 183.31117006001023
+          },
+          "ttft_ms": {
+            "median": 1012.2783180000852,
+            "p95": 1293.9810816001796,
+            "p99": 1972.3721964499737
+          },
+          "final_before_endpoint": 0
+        },
+        "livekit-general": {
+          "attempted": 400,
+          "successful": 394,
+          "failed": 6,
+          "scored": 394,
+          "reference_words": 8008,
+          "substitutions": 271,
+          "deletions": 99,
+          "insertions": 287,
+          "wer": 0.08204295704295704,
+          "mean_clip_wer": 0.12216424736358912,
+          "ttfs_ms": {
+            "median": 104.30156649988476,
+            "p95": 174.79186419986942,
+            "p99": 181.06526328004747
+          },
+          "ttft_ms": {
+            "median": 2493.9399180000237,
+            "p95": 7378.685740950008,
+            "p99": 12548.190877629948
+          },
+          "final_before_endpoint": 0
+        },
+        "livekit-short_turns": {
+          "attempted": 544,
+          "successful": 468,
+          "failed": 76,
+          "scored": 466,
+          "reference_words": 1260,
+          "substitutions": 75,
+          "deletions": 94,
+          "insertions": 11,
+          "wer": 0.14285714285714285,
+          "mean_clip_wer": 0.15020692826486817,
+          "ttfs_ms": {
+            "median": 102.2321609999608,
+            "p95": 181.60433949997235,
+            "p99": 192.90030771016745
+          },
+          "ttft_ms": {
+            "median": 1012.2399484998823,
+            "p95": 1055.3072588000305,
+            "p99": 1293.9385296999876
+          },
+          "final_before_endpoint": 0
+        },
+        "pipecat": {
+          "attempted": 1000,
+          "successful": 999,
+          "failed": 1,
+          "scored": 999,
+          "reference_words": 23733,
+          "substitutions": 525,
+          "deletions": 213,
+          "insertions": 104,
+          "wer": 0.035478026376774954,
+          "mean_clip_wer": 0.03998421432317415,
+          "ttfs_ms": {
+            "median": 98.15796600014437,
+            "p95": 166.36082519983117,
+            "p99": 191.19696085993837
+          },
+          "ttft_ms": {
+            "median": 1293.573728000183,
+            "p95": 2691.5720769000245,
+            "p99": 4179.637408919871
+          },
+          "final_before_endpoint": 0
+        },
+        "primock57": {
+          "attempted": 3084,
+          "successful": 3080,
+          "failed": 4,
+          "scored": 3080,
+          "reference_words": 49119,
+          "substitutions": 2257,
+          "deletions": 1593,
+          "insertions": 587,
+          "wer": 0.09033164355951873,
+          "mean_clip_wer": 0.1015523512683109,
+          "ttfs_ms": {
+            "median": 99.23733250002442,
+            "p95": 164.1671807500642,
+            "p99": 192.6478850998183
+          },
+          "ttft_ms": {
+            "median": 813.7023159997625,
+            "p95": 1773.5419045998697,
+            "p99": 2460.7574114098693
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-v3": {
+          "attempted": 877,
+          "successful": 877,
+          "failed": 0,
+          "scored": 877,
+          "reference_words": 20377,
+          "substitutions": 395,
+          "deletions": 158,
+          "insertions": 73,
+          "wer": 0.03072091083083869,
+          "mean_clip_wer": 0.036098576338560735,
+          "ttfs_ms": {
+            "median": 97.28985099991405,
+            "p95": 157.92783879999195,
+            "p99": 188.66043351994
+          },
+          "ttft_ms": {
+            "median": 1292.1137490000092,
+            "p95": 2212.2202000000016,
+            "p99": 3412.4540575600304
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-accent": {
+          "attempted": 844,
+          "successful": 844,
+          "failed": 0,
+          "scored": 844,
+          "reference_words": 8909,
+          "substitutions": 367,
+          "deletions": 176,
+          "insertions": 36,
+          "wer": 0.0649904590863172,
+          "mean_clip_wer": 0.06827363104177772,
+          "ttfs_ms": {
+            "median": 89.5388150000258,
+            "p95": 170.6021038499898,
+            "p99": 194.72859122002774
+          },
+          "ttft_ms": {
+            "median": 771.5558735000059,
+            "p95": 1053.8260721500137,
+            "p99": 1646.5724139000201
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-clean": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 155,
+          "deletions": 35,
+          "insertions": 21,
+          "wer": 0.03792917490562646,
+          "mean_clip_wer": 0.04047120865572464,
+          "ttfs_ms": {
+            "median": 107.0155339999701,
+            "p95": 171.53159420004155,
+            "p99": 198.54479824002743
+          },
+          "ttft_ms": {
+            "median": 814.7257999999056,
+            "p95": 1535.0279322000233,
+            "p99": 2014.0843937599811
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-clipping": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 730,
+          "deletions": 120,
+          "insertions": 100,
+          "wer": 0.1707711666367068,
+          "mean_clip_wer": 0.18086407084361167,
+          "ttfs_ms": {
+            "median": 90.37197799989372,
+            "p95": 151.24722960017607,
+            "p99": 195.95819752007628
+          },
+          "ttft_ms": {
+            "median": 771.0122070000125,
+            "p95": 1733.1606909998754,
+            "p99": 1982.6431169200264
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-farfield": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 438,
+          "deletions": 71,
+          "insertions": 64,
+          "wer": 0.10300197735035053,
+          "mean_clip_wer": 0.10718630500991545,
+          "ttfs_ms": {
+            "median": 105.27623899997707,
+            "p95": 174.51200979999155,
+            "p99": 190.21811112002985
+          },
+          "ttft_ms": {
+            "median": 580.6933239998671,
+            "p95": 1773.7904558000537,
+            "p99": 2253.789545039999
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-noisegap": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 283,
+          "deletions": 46,
+          "insertions": 121,
+          "wer": 0.08089160524896638,
+          "mean_clip_wer": 0.08809148253579767,
+          "ttfs_ms": {
+            "median": 98.87548899996546,
+            "p95": 171.0535509999545,
+            "p99": 203.8639533199057
+          },
+          "ttft_ms": {
+            "median": 814.4042880001052,
+            "p95": 1739.2897446000006,
+            "p99": 1989.3856495600269
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-phonecodec": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 268,
+          "deletions": 60,
+          "insertions": 39,
+          "wer": 0.06597159805860148,
+          "mean_clip_wer": 0.07022158444629223,
+          "ttfs_ms": {
+            "median": 98.3909510000558,
+            "p95": 165.2750885999921,
+            "p99": 192.8553239199938
+          },
+          "ttft_ms": {
+            "median": 1012.7866360001008,
+            "p95": 1774.366442199971,
+            "p99": 2061.8935997999615
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-reverb": {
+          "attempted": 277,
+          "successful": 270,
+          "failed": 7,
+          "scored": 270,
+          "reference_words": 5446,
+          "substitutions": 377,
+          "deletions": 373,
+          "insertions": 49,
+          "wer": 0.14671318398824826,
+          "mean_clip_wer": 0.15528449388722038,
+          "ttfs_ms": {
+            "median": 96.70701250001912,
+            "p95": 179.41753445006725,
+            "p99": 202.52151703998834
+          },
+          "ttft_ms": {
+            "median": 771.561901499922,
+            "p95": 1642.8384507500448,
+            "p99": 2013.810470289984
+          },
+          "final_before_endpoint": 0
+        }
+      }
+    },
+    {
+      "model": "Deepgram Nova 3",
+      "model_key": "deepgram_nova-3",
+      "clips": 9211,
+      "metrics": {
+        "attempted": 9211,
+        "successful": 9211,
+        "failed": 0,
+        "scored": 9205,
+        "reference_words": 154661,
+        "substitutions": 5027,
+        "deletions": 3040,
+        "insertions": 1646,
+        "wer": 0.06280186989609533,
+        "mean_clip_wer": 0.06963666875992755,
+        "ttfs_ms": {
+          "median": 78.44066400002703,
+          "p95": 127.70304349982098,
+          "p99": 149.55384329985006
+        },
+        "ttft_ms": {
+          "median": 1074.3629540002075,
+          "p95": 2106.420155400042,
+          "p99": 4086.1213106400196
+        },
+        "final_before_endpoint": 0
+      },
+      "cohorts": {
+        "livekit-accented": {
+          "attempted": 800,
+          "successful": 800,
+          "failed": 0,
+          "scored": 798,
+          "reference_words": 9756,
+          "substitutions": 358,
+          "deletions": 149,
+          "insertions": 170,
+          "wer": 0.06939319393193932,
+          "mean_clip_wer": 0.08066121838210975,
+          "ttfs_ms": {
+            "median": 69.07179850009015,
+            "p95": 117.78494734992363,
+            "p99": 143.8130105500954
+          },
+          "ttft_ms": {
+            "median": 1045.8876994999855,
+            "p95": 1092.2602065499177,
+            "p99": 2097.769144850006
+          },
+          "final_before_endpoint": 0
+        },
+        "livekit-general": {
+          "attempted": 400,
+          "successful": 400,
+          "failed": 0,
+          "scored": 400,
+          "reference_words": 8016,
+          "substitutions": 274,
+          "deletions": 85,
+          "insertions": 289,
+          "wer": 0.08083832335329341,
+          "mean_clip_wer": 0.10997778246670208,
+          "ttfs_ms": {
+            "median": 80.02992950002863,
+            "p95": 130.96411850007144,
+            "p99": 167.6995740399411
+          },
+          "ttft_ms": {
+            "median": 3038.1260650000286,
+            "p95": 8094.124879199989,
+            "p99": 13132.199244839987
+          },
+          "final_before_endpoint": 0
+        },
+        "livekit-short_turns": {
+          "attempted": 544,
+          "successful": 544,
+          "failed": 0,
+          "scored": 540,
+          "reference_words": 1358,
+          "substitutions": 43,
+          "deletions": 19,
+          "insertions": 11,
+          "wer": 0.05375552282768778,
+          "mean_clip_wer": 0.0652752009894867,
+          "ttfs_ms": {
+            "median": 62.68900250006482,
+            "p95": 105.79123264996042,
+            "p99": 116.148170939955
+          },
+          "ttft_ms": {
+            "median": 1038.3417870000358,
+            "p95": 1083.1791234500088,
+            "p99": 1097.9412214599938
+          },
+          "final_before_endpoint": 0
+        },
+        "pipecat": {
+          "attempted": 1000,
+          "successful": 1000,
+          "failed": 0,
+          "scored": 1000,
+          "reference_words": 23734,
+          "substitutions": 423,
+          "deletions": 222,
+          "insertions": 124,
+          "wer": 0.03240077525912193,
+          "mean_clip_wer": 0.03291302970367002,
+          "ttfs_ms": {
+            "median": 81.97921849989598,
+            "p95": 131.61638124992123,
+            "p99": 155.5225869000492
+          },
+          "ttft_ms": {
+            "median": 2035.6462139999394,
+            "p95": 3042.590246500106,
+            "p99": 4088.6413562600296
+          },
+          "final_before_endpoint": 0
+        },
+        "primock57": {
+          "attempted": 3084,
+          "successful": 3084,
+          "failed": 0,
+          "scored": 3084,
+          "reference_words": 49133,
+          "substitutions": 1712,
+          "deletions": 1289,
+          "insertions": 519,
+          "wer": 0.07164227708464779,
+          "mean_clip_wer": 0.0763739832651928,
+          "ttfs_ms": {
+            "median": 78.825715999983,
+            "p95": 126.62418064985559,
+            "p99": 145.82868231990005
+          },
+          "ttft_ms": {
+            "median": 1067.3486550001599,
+            "p95": 2078.1898612502346,
+            "p99": 2960.759637490032
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-v3": {
+          "attempted": 877,
+          "successful": 877,
+          "failed": 0,
+          "scored": 877,
+          "reference_words": 20377,
+          "substitutions": 298,
+          "deletions": 147,
+          "insertions": 94,
+          "wer": 0.026451391274476124,
+          "mean_clip_wer": 0.026874131546184017,
+          "ttfs_ms": {
+            "median": 79.32074000007105,
+            "p95": 129.11941060003755,
+            "p99": 151.54553548003605
+          },
+          "ttft_ms": {
+            "median": 2037.3592290000033,
+            "p95": 2113.219829000059,
+            "p99": 3112.7528803200266
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-accent": {
+          "attempted": 844,
+          "successful": 844,
+          "failed": 0,
+          "scored": 844,
+          "reference_words": 8909,
+          "substitutions": 314,
+          "deletions": 110,
+          "insertions": 30,
+          "wer": 0.05095970367044562,
+          "mean_clip_wer": 0.05232708477672933,
+          "ttfs_ms": {
+            "median": 81.69811249996428,
+            "p95": 127.97089009999353,
+            "p99": 144.57873621996546
+          },
+          "ttft_ms": {
+            "median": 1074.1482364999797,
+            "p95": 1091.8852153999865,
+            "p99": 1106.3927078699828
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-clean": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 144,
+          "deletions": 41,
+          "insertions": 40,
+          "wer": 0.04044580262448319,
+          "mean_clip_wer": 0.04163005718085733,
+          "ttfs_ms": {
+            "median": 90.48897000002398,
+            "p95": 135.04085019997092,
+            "p99": 155.79621003997548
+          },
+          "ttft_ms": {
+            "median": 1075.6254199999375,
+            "p95": 2095.9669660000145,
+            "p99": 2105.4995210800053
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-clipping": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 463,
+          "deletions": 175,
+          "insertions": 108,
+          "wer": 0.13410030559050873,
+          "mean_clip_wer": 0.14422258367595744,
+          "ttfs_ms": {
+            "median": 80.66200899997966,
+            "p95": 134.82572140010234,
+            "p99": 153.48184795988348
+          },
+          "ttft_ms": {
+            "median": 1073.8115669998933,
+            "p95": 2098.001506800074,
+            "p99": 2110.6741864399464
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-farfield": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 293,
+          "deletions": 104,
+          "insertions": 59,
+          "wer": 0.08197015998561927,
+          "mean_clip_wer": 0.08695700238718022,
+          "ttfs_ms": {
+            "median": 84.03478900004302,
+            "p95": 134.24866139994265,
+            "p99": 154.36490987999613
+          },
+          "ttft_ms": {
+            "median": 1075.3036210001028,
+            "p95": 2100.981018399989,
+            "p99": 2109.121624119962
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-noisegap": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 222,
+          "deletions": 53,
+          "insertions": 105,
+          "wer": 0.06830846665468272,
+          "mean_clip_wer": 0.07225266728682955,
+          "ttfs_ms": {
+            "median": 86.29088600014256,
+            "p95": 135.99881580007604,
+            "p99": 152.6848913200867
+          },
+          "ttft_ms": {
+            "median": 1075.0400099998387,
+            "p95": 2091.9939903998966,
+            "p99": 2113.798930560097
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-phonecodec": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 206,
+          "deletions": 53,
+          "insertions": 45,
+          "wer": 0.05464677332374618,
+          "mean_clip_wer": 0.05902912261048789,
+          "ttfs_ms": {
+            "median": 69.2942690000109,
+            "p95": 127.3624668001048,
+            "p99": 152.83964200008998
+          },
+          "ttft_ms": {
+            "median": 1048.8974179997967,
+            "p95": 2068.983396599924,
+            "p99": 2094.488280519936
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-reverb": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 277,
+          "deletions": 593,
+          "insertions": 52,
+          "wer": 0.16573791119899334,
+          "mean_clip_wer": 0.17778852116120328,
+          "ttfs_ms": {
+            "median": 74.70003299999917,
+            "p95": 125.15016679999462,
+            "p99": 149.62744183990256
+          },
+          "ttft_ms": {
+            "median": 1073.0727820000538,
+            "p95": 2093.3939013001236,
+            "p99": 2104.155439359961
+          },
+          "final_before_endpoint": 0
+        }
+      }
+    },
+    {
+      "model": "ElevenLabs Scribe v2 Realtime",
+      "model_key": "elevenlabs_scribe_v2_realtime",
+      "clips": 9211,
+      "metrics": {
+        "attempted": 9211,
+        "successful": 9211,
+        "failed": 0,
+        "scored": 9205,
+        "reference_words": 154661,
+        "substitutions": 3595,
+        "deletions": 1531,
+        "insertions": 1798,
+        "wer": 0.044768881618507575,
+        "mean_clip_wer": 0.058724738822698505,
+        "ttfs_ms": {
+          "median": 100.56054999995467,
+          "p95": 146.33649650022562,
+          "p99": 186.40626009994307
+        },
+        "ttft_ms": {
+          "median": 2021.4030689999163,
+          "p95": 2952.3585000000367,
+          "p99": 4122.153456360057
+        },
+        "final_before_endpoint": 0
+      },
+      "cohorts": {
+        "livekit-accented": {
+          "attempted": 800,
+          "successful": 800,
+          "failed": 0,
+          "scored": 798,
+          "reference_words": 9756,
+          "substitutions": 307,
+          "deletions": 97,
+          "insertions": 192,
+          "wer": 0.06109061090610906,
+          "mean_clip_wer": 0.115936474060102,
+          "ttfs_ms": {
+            "median": 100.16917600000852,
+            "p95": 148.02389989986293,
+            "p99": 163.64598667025797
+          },
+          "ttft_ms": {
+            "median": 2006.2112729999626,
+            "p95": 2048.314214099946,
+            "p99": 2100.3629414301577
+          },
+          "final_before_endpoint": 0
+        },
+        "livekit-general": {
+          "attempted": 400,
+          "successful": 400,
+          "failed": 0,
+          "scored": 400,
+          "reference_words": 8016,
+          "substitutions": 276,
+          "deletions": 104,
+          "insertions": 330,
+          "wer": 0.08857285429141716,
+          "mean_clip_wer": 0.14272644868072779,
+          "ttfs_ms": {
+            "median": 100.55814149995967,
+            "p95": 142.80613949979397,
+            "p99": 178.0374230302317
+          },
+          "ttft_ms": {
+            "median": 2976.0278220001055,
+            "p95": 7783.896607499992,
+            "p99": 13535.509976940124
+          },
+          "final_before_endpoint": 0
+        },
+        "livekit-short_turns": {
+          "attempted": 544,
+          "successful": 544,
+          "failed": 0,
+          "scored": 540,
+          "reference_words": 1358,
+          "substitutions": 31,
+          "deletions": 14,
+          "insertions": 6,
+          "wer": 0.03755522827687776,
+          "mean_clip_wer": 0.04307801042494921,
+          "ttfs_ms": {
+            "median": 101.62989950003976,
+            "p95": 147.2506511001484,
+            "p99": 299.8201611499329
+          },
+          "ttft_ms": {
+            "median": 1467.2645545001615,
+            "p95": 1994.777333049933,
+            "p99": 2044.5081926399962
+          },
+          "final_before_endpoint": 0
+        },
+        "pipecat": {
+          "attempted": 1000,
+          "successful": 1000,
+          "failed": 0,
+          "scored": 1000,
+          "reference_words": 23734,
+          "substitutions": 233,
+          "deletions": 52,
+          "insertions": 154,
+          "wer": 0.018496671441813432,
+          "mean_clip_wer": 0.023678063765914983,
+          "ttfs_ms": {
+            "median": 99.92627499991613,
+            "p95": 145.45149890001312,
+            "p99": 284.6869516599143
+          },
+          "ttft_ms": {
+            "median": 2052.1265764999725,
+            "p95": 3011.3898646000507,
+            "p99": 4904.89251505003
+          },
+          "final_before_endpoint": 0
+        },
+        "primock57": {
+          "attempted": 3084,
+          "successful": 3084,
+          "failed": 0,
+          "scored": 3084,
+          "reference_words": 49133,
+          "substitutions": 1255,
+          "deletions": 716,
+          "insertions": 589,
+          "wer": 0.052103474243380216,
+          "mean_clip_wer": 0.06161682911807277,
+          "ttfs_ms": {
+            "median": 98.11055199998009,
+            "p95": 142.71910525019393,
+            "p99": 164.7462473901261
+          },
+          "ttft_ms": {
+            "median": 2017.7346929999658,
+            "p95": 2048.281972000018,
+            "p99": 2102.7025795499867
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-v3": {
+          "attempted": 877,
+          "successful": 877,
+          "failed": 0,
+          "scored": 877,
+          "reference_words": 20377,
+          "substitutions": 137,
+          "deletions": 28,
+          "insertions": 122,
+          "wer": 0.014084507042253521,
+          "mean_clip_wer": 0.019219066224005144,
+          "ttfs_ms": {
+            "median": 103.65248799996607,
+            "p95": 147.45976900007915,
+            "p99": 175.58009048002538
+          },
+          "ttft_ms": {
+            "median": 2053.6992429999827,
+            "p95": 2984.3132602000196,
+            "p99": 3947.1724378400313
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-accent": {
+          "attempted": 844,
+          "successful": 844,
+          "failed": 0,
+          "scored": 844,
+          "reference_words": 8909,
+          "substitutions": 247,
+          "deletions": 30,
+          "insertions": 50,
+          "wer": 0.036704456167920084,
+          "mean_clip_wer": 0.039149315008319745,
+          "ttfs_ms": {
+            "median": 100.83215899999232,
+            "p95": 144.98359654993462,
+            "p99": 232.88959556994737
+          },
+          "ttft_ms": {
+            "median": 2019.4815180001342,
+            "p95": 2050.114804100076,
+            "p99": 2257.2808077600466
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-clean": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 77,
+          "deletions": 10,
+          "insertions": 29,
+          "wer": 0.020852058241955778,
+          "mean_clip_wer": 0.02102777499321979,
+          "ttfs_ms": {
+            "median": 105.55187099998875,
+            "p95": 145.2165962001345,
+            "p99": 161.85985599994643
+          },
+          "ttft_ms": {
+            "median": 2031.3888800000086,
+            "p95": 2099.415352600022,
+            "p99": 2977.5112772800094
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-clipping": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 392,
+          "deletions": 47,
+          "insertions": 109,
+          "wer": 0.09850799928096352,
+          "mean_clip_wer": 0.10546665292150596,
+          "ttfs_ms": {
+            "median": 105.83536800004367,
+            "p95": 152.84189560011328,
+            "p99": 242.56216916010172
+          },
+          "ttft_ms": {
+            "median": 2033.5657369998899,
+            "p95": 2238.6923728000043,
+            "p99": 2997.2362580799654
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-farfield": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 188,
+          "deletions": 16,
+          "insertions": 44,
+          "wer": 0.04458026244831925,
+          "mean_clip_wer": 0.04848842608227389,
+          "ttfs_ms": {
+            "median": 100.89504899997337,
+            "p95": 150.52409099994293,
+            "p99": 172.7133967999271
+          },
+          "ttft_ms": {
+            "median": 2029.713136999817,
+            "p95": 2103.9772041999186,
+            "p99": 2976.0521709600107
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-noisegap": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 128,
+          "deletions": 33,
+          "insertions": 97,
+          "wer": 0.04637785367607406,
+          "mean_clip_wer": 0.048041695493143396,
+          "ttfs_ms": {
+            "median": 104.41766600001756,
+            "p95": 149.17975219996148,
+            "p99": 164.108984960003
+          },
+          "ttft_ms": {
+            "median": 2030.0650050000968,
+            "p95": 2113.645348199907,
+            "p99": 2978.5299693199977
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-phonecodec": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 132,
+          "deletions": 10,
+          "insertions": 40,
+          "wer": 0.03271616034513752,
+          "mean_clip_wer": 0.036564206565879734,
+          "ttfs_ms": {
+            "median": 103.47660500019629,
+            "p95": 151.70517940000533,
+            "p99": 188.79915631999214
+          },
+          "ttft_ms": {
+            "median": 2029.1863979998652,
+            "p95": 2096.7799747999834,
+            "p99": 2980.8713910000915
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-reverb": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 192,
+          "deletions": 374,
+          "insertions": 36,
+          "wer": 0.10821499191083947,
+          "mean_clip_wer": 0.11601377259570911,
+          "ttfs_ms": {
+            "median": 102.42102899997008,
+            "p95": 154.33810699996684,
+            "p99": 371.3447456799625
+          },
+          "ttft_ms": {
+            "median": 2030.7630379998045,
+            "p95": 2102.3047730000144,
+            "p99": 3008.629121560052
+          },
+          "final_before_endpoint": 0
+        }
+      }
+    },
+    {
+      "model": "ElevenLabs Scribe v3 Live",
+      "model_key": "elevenlabs_scribe_v3_live",
+      "clips": 9211,
+      "metrics": {
+        "attempted": 9211,
+        "successful": 9211,
+        "failed": 0,
+        "scored": 9205,
+        "reference_words": 154661,
+        "substitutions": 3189,
+        "deletions": 1448,
+        "insertions": 1700,
+        "wer": 0.04097348394229961,
+        "mean_clip_wer": 0.05350553159587708,
+        "ttfs_ms": {
+          "median": 78.6712669996632,
+          "p95": 120.98463100005574,
+          "p99": 190.93272810009657
+        },
+        "ttft_ms": {
+          "median": 1029.1347550000864,
+          "p95": 2314.1056990000034,
+          "p99": 4226.647375970189
+        },
+        "final_before_endpoint": 0
+      },
+      "cohorts": {
+        "livekit-accented": {
+          "attempted": 800,
+          "successful": 800,
+          "failed": 0,
+          "scored": 798,
+          "reference_words": 9756,
+          "substitutions": 296,
+          "deletions": 82,
+          "insertions": 193,
+          "wer": 0.05852808528085281,
+          "mean_clip_wer": 0.1154139726379336,
+          "ttfs_ms": {
+            "median": 80.11109199992461,
+            "p95": 122.07093204995088,
+            "p99": 223.4398476198929
+          },
+          "ttft_ms": {
+            "median": 1039.9859455001206,
+            "p95": 1356.743399199945,
+            "p99": 1392.140479940158
+          },
+          "final_before_endpoint": 0
+        },
+        "livekit-general": {
+          "attempted": 400,
+          "successful": 400,
+          "failed": 0,
+          "scored": 400,
+          "reference_words": 8016,
+          "substitutions": 282,
+          "deletions": 82,
+          "insertions": 359,
+          "wer": 0.09019461077844311,
+          "mean_clip_wer": 0.14913318863557137,
+          "ttfs_ms": {
+            "median": 78.45638299977509,
+            "p95": 116.24375625010542,
+            "p99": 136.94825660987132
+          },
+          "ttft_ms": {
+            "median": 2646.711489999916,
+            "p95": 7762.052978850192,
+            "p99": 12870.8284370299
+          },
+          "final_before_endpoint": 0
+        },
+        "livekit-short_turns": {
+          "attempted": 544,
+          "successful": 544,
+          "failed": 0,
+          "scored": 540,
+          "reference_words": 1358,
+          "substitutions": 17,
+          "deletions": 9,
+          "insertions": 7,
+          "wer": 0.024300441826215022,
+          "mean_clip_wer": 0.025324675324675323,
+          "ttfs_ms": {
+            "median": 78.52503049980442,
+            "p95": 117.41662989986708,
+            "p99": 200.5094969301313
+          },
+          "ttft_ms": {
+            "median": 1038.935955999932,
+            "p95": 1100.9769949998827,
+            "p99": 1358.7045931997181
+          },
+          "final_before_endpoint": 0
+        },
+        "pipecat": {
+          "attempted": 1000,
+          "successful": 1000,
+          "failed": 0,
+          "scored": 1000,
+          "reference_words": 23734,
+          "substitutions": 223,
+          "deletions": 41,
+          "insertions": 140,
+          "wer": 0.017021993764220106,
+          "mean_clip_wer": 0.02041086085160293,
+          "ttfs_ms": {
+            "median": 78.42567499994857,
+            "p95": 122.29420999988173,
+            "p99": 215.21606896021208
+          },
+          "ttft_ms": {
+            "median": 1371.9025099999271,
+            "p95": 2656.6312890498352,
+            "p99": 4542.229722969975
+          },
+          "final_before_endpoint": 0
+        },
+        "primock57": {
+          "attempted": 3084,
+          "successful": 3084,
+          "failed": 0,
+          "scored": 3084,
+          "reference_words": 49133,
+          "substitutions": 1169,
+          "deletions": 713,
+          "insertions": 558,
+          "wer": 0.04966112388822177,
+          "mean_clip_wer": 0.05833760373793024,
+          "ttfs_ms": {
+            "median": 78.29359400011526,
+            "p95": 119.491522949761,
+            "p99": 185.1860910499
+          },
+          "ttft_ms": {
+            "median": 719.2220809997707,
+            "p95": 1037.2781621497552,
+            "p99": 1090.4646264899523
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-v3": {
+          "attempted": 877,
+          "successful": 877,
+          "failed": 0,
+          "scored": 877,
+          "reference_words": 20377,
+          "substitutions": 131,
+          "deletions": 21,
+          "insertions": 117,
+          "wer": 0.013201158168523335,
+          "mean_clip_wer": 0.016846489142591396,
+          "ttfs_ms": {
+            "median": 77.48507899998458,
+            "p95": 119.05534280003847,
+            "p99": 159.2656729600417
+          },
+          "ttft_ms": {
+            "median": 1365.7109829999854,
+            "p95": 2340.0729997999406,
+            "p99": 3587.6556765200394
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-accent": {
+          "attempted": 844,
+          "successful": 844,
+          "failed": 0,
+          "scored": 844,
+          "reference_words": 8909,
+          "substitutions": 211,
+          "deletions": 36,
+          "insertions": 18,
+          "wer": 0.029745201481647773,
+          "mean_clip_wer": 0.03046811995271711,
+          "ttfs_ms": {
+            "median": 78.18850099988595,
+            "p95": 114.8026481001466,
+            "p99": 213.3242618700408
+          },
+          "ttft_ms": {
+            "median": 406.11719750006614,
+            "p95": 463.4054809999378,
+            "p99": 744.1204465199459
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-clean": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 73,
+          "deletions": 7,
+          "insertions": 31,
+          "wer": 0.019953262628078373,
+          "mean_clip_wer": 0.01982401827378108,
+          "ttfs_ms": {
+            "median": 80.02564100002019,
+            "p95": 119.41324200001871,
+            "p99": 179.65266524005656
+          },
+          "ttft_ms": {
+            "median": 1347.6368019998972,
+            "p95": 2014.5642224000312,
+            "p99": 2328.6493889999383
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-clipping": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 272,
+          "deletions": 34,
+          "insertions": 50,
+          "wer": 0.06399424770807119,
+          "mean_clip_wer": 0.06991582988333679,
+          "ttfs_ms": {
+            "median": 81.03206099985982,
+            "p95": 137.06262379987493,
+            "p99": 193.30171923990753
+          },
+          "ttft_ms": {
+            "median": 1353.1903800001146,
+            "p95": 2061.8981386000073,
+            "p99": 2321.876619879895
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-farfield": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 160,
+          "deletions": 18,
+          "insertions": 38,
+          "wer": 0.03882797051950387,
+          "mean_clip_wer": 0.041601502665011635,
+          "ttfs_ms": {
+            "median": 78.39504000003217,
+            "p95": 130.50893300019197,
+            "p99": 259.66026183989237
+          },
+          "ttft_ms": {
+            "median": 1353.7701100001414,
+            "p95": 2306.1275798000224,
+            "p99": 2358.560921400022
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-noisegap": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 120,
+          "deletions": 14,
+          "insertions": 123,
+          "wer": 0.04619809455329858,
+          "mean_clip_wer": 0.048504824780838104,
+          "ttfs_ms": {
+            "median": 81.9330300000729,
+            "p95": 131.76667860002448,
+            "p99": 156.38561944001594
+          },
+          "ttft_ms": {
+            "median": 1350.0685779999912,
+            "p95": 2030.1669295999998,
+            "p99": 2329.9954311600413
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-phonecodec": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 100,
+          "deletions": 8,
+          "insertions": 34,
+          "wer": 0.02552579543411828,
+          "mean_clip_wer": 0.026456595174204123,
+          "ttfs_ms": {
+            "median": 77.62832999992497,
+            "p95": 119.9239141998987,
+            "p99": 164.14249640000924
+          },
+          "ttft_ms": {
+            "median": 1348.5179759998118,
+            "p95": 1994.3226498000058,
+            "p99": 2318.5713074799514
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-reverb": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 135,
+          "deletions": 383,
+          "insertions": 32,
+          "wer": 0.09886751752651447,
+          "mean_clip_wer": 0.10495906890883988,
+          "ttfs_ms": {
+            "median": 80.3872900000897,
+            "p95": 121.18289459986045,
+            "p99": 161.14977636002556
+          },
+          "ttft_ms": {
+            "median": 1350.6697899999835,
+            "p95": 2008.0847334000737,
+            "p99": 2328.9328432801085
+          },
+          "final_before_endpoint": 0
+        }
+      }
+    },
+    {
+      "model": "MAI Transcribe 2 Streaming",
+      "model_key": "mai_mai-transcribe-2-streaming",
+      "clips": 9211,
+      "metrics": {
+        "attempted": 9211,
+        "successful": 9211,
+        "failed": 0,
+        "scored": 9205,
+        "reference_words": 154661,
+        "substitutions": 2718,
+        "deletions": 2641,
+        "insertions": 1018,
+        "wer": 0.04123211410762894,
+        "mean_clip_wer": 0.05349522497837951,
+        "ttfs_ms": {
+          "median": 63.3053699998527,
+          "p95": 208.07894199970178,
+          "p99": 757.8804732985064
+        },
+        "ttft_ms": {
+          "median": 905.8989219993236,
+          "p95": 2136.0984993996685,
+          "p99": 3916.0119548798684
+        },
+        "final_before_endpoint": 0
+      },
+      "cohorts": {
+        "livekit-accented": {
+          "attempted": 800,
+          "successful": 800,
+          "failed": 0,
+          "scored": 798,
+          "reference_words": 9756,
+          "substitutions": 325,
+          "deletions": 284,
+          "insertions": 162,
+          "wer": 0.07902829028290283,
+          "mean_clip_wer": 0.1204854750557358,
+          "ttfs_ms": {
+            "median": 74.48861749981006,
+            "p95": 227.3556274000839,
+            "p99": 523.6835704304754
+          },
+          "ttft_ms": {
+            "median": 919.8488480005835,
+            "p95": 1164.421329349807,
+            "p99": 1723.354292570493
+          },
+          "final_before_endpoint": 0
+        },
+        "livekit-general": {
+          "attempted": 400,
+          "successful": 400,
+          "failed": 0,
+          "scored": 400,
+          "reference_words": 8016,
+          "substitutions": 287,
+          "deletions": 94,
+          "insertions": 228,
+          "wer": 0.07597305389221556,
+          "mean_clip_wer": 0.13930899177710468,
+          "ttfs_ms": {
+            "median": 69.14572749974468,
+            "p95": 187.81473764965992,
+            "p99": 247.83055606967514
+          },
+          "ttft_ms": {
+            "median": 2485.935483000503,
+            "p95": 7431.43083885061,
+            "p99": 12893.23741737906
+          },
+          "final_before_endpoint": 0
+        },
+        "livekit-short_turns": {
+          "attempted": 544,
+          "successful": 544,
+          "failed": 0,
+          "scored": 540,
+          "reference_words": 1358,
+          "substitutions": 36,
+          "deletions": 13,
+          "insertions": 7,
+          "wer": 0.041237113402061855,
+          "mean_clip_wer": 0.04700061842918986,
+          "ttfs_ms": {
+            "median": 69.34500149964151,
+            "p95": 222.6457360491623,
+            "p99": 546.0203824698517
+          },
+          "ttft_ms": {
+            "median": 914.1397315006543,
+            "p95": 1105.9309638005288,
+            "p99": 1317.9140545307384
+          },
+          "final_before_endpoint": 0
+        },
+        "pipecat": {
+          "attempted": 1000,
+          "successful": 1000,
+          "failed": 0,
+          "scored": 1000,
+          "reference_words": 23734,
+          "substitutions": 224,
+          "deletions": 154,
+          "insertions": 54,
+          "wer": 0.01820173590629477,
+          "mean_clip_wer": 0.022023547140887948,
+          "ttfs_ms": {
+            "median": 66.23400450007466,
+            "p95": 299.13178255055703,
+            "p99": 2008.1138230995641
+          },
+          "ttft_ms": {
+            "median": 1405.5568735002453,
+            "p95": 2887.428837449897,
+            "p99": 4622.655100300199
+          },
+          "final_before_endpoint": 0
+        },
+        "primock57": {
+          "attempted": 3084,
+          "successful": 3084,
+          "failed": 0,
+          "scored": 3084,
+          "reference_words": 49133,
+          "substitutions": 1015,
+          "deletions": 1476,
+          "insertions": 410,
+          "wer": 0.05904381983595547,
+          "mean_clip_wer": 0.06432331324053492,
+          "ttfs_ms": {
+            "median": 67.77088250055385,
+            "p95": 222.4740732994178,
+            "p99": 913.8335916600253
+          },
+          "ttft_ms": {
+            "median": 651.2709765002,
+            "p95": 1141.0308074002387,
+            "p99": 1429.893553099866
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-v3": {
+          "attempted": 877,
+          "successful": 877,
+          "failed": 0,
+          "scored": 877,
+          "reference_words": 20377,
+          "substitutions": 132,
+          "deletions": 110,
+          "insertions": 41,
+          "wer": 0.013888207292535702,
+          "mean_clip_wer": 0.018007234568208734,
+          "ttfs_ms": {
+            "median": 55.64460400000826,
+            "p95": 178.67551740009728,
+            "p99": 399.9441258000947
+          },
+          "ttft_ms": {
+            "median": 1401.853641000116,
+            "p95": 2404.743763800252,
+            "p99": 3291.7118242801234
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-accent": {
+          "attempted": 844,
+          "successful": 844,
+          "failed": 0,
+          "scored": 844,
+          "reference_words": 8909,
+          "substitutions": 159,
+          "deletions": 30,
+          "insertions": 14,
+          "wer": 0.02278594679537546,
+          "mean_clip_wer": 0.0244768593702243,
+          "ttfs_ms": {
+            "median": 52.97134350007582,
+            "p95": 169.65948609961288,
+            "p99": 281.92402989974653
+          },
+          "ttft_ms": {
+            "median": 415.096415500102,
+            "p95": 561.5758721000929,
+            "p99": 658.680962210119
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-clean": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 68,
+          "deletions": 12,
+          "insertions": 16,
+          "wer": 0.017256875786446163,
+          "mean_clip_wer": 0.01752980432160863,
+          "ttfs_ms": {
+            "median": 56.24364000004789,
+            "p95": 167.01251299991782,
+            "p99": 240.44729879973602
+          },
+          "ttft_ms": {
+            "median": 1132.872378999764,
+            "p95": 1701.7675041999598,
+            "p99": 2146.6014296397407
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-clipping": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 114,
+          "deletions": 19,
+          "insertions": 19,
+          "wer": 0.02732338666187309,
+          "mean_clip_wer": 0.028780924055944006,
+          "ttfs_ms": {
+            "median": 51.88479700063908,
+            "p95": 151.5451090001079,
+            "p99": 171.165161400495
+          },
+          "ttft_ms": {
+            "median": 1137.7324919994862,
+            "p95": 1753.1385660002325,
+            "p99": 2135.622911040118
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-farfield": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 88,
+          "deletions": 22,
+          "insertions": 14,
+          "wer": 0.022290131224159626,
+          "mean_clip_wer": 0.022140043802803464,
+          "ttfs_ms": {
+            "median": 55.006659000355285,
+            "p95": 157.15548139996827,
+            "p99": 175.71004287998227
+          },
+          "ttft_ms": {
+            "median": 1146.3139640000009,
+            "p95": 1886.297588400521,
+            "p99": 2171.2462713598507
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-noisegap": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 87,
+          "deletions": 14,
+          "insertions": 26,
+          "wer": 0.02282940859248607,
+          "mean_clip_wer": 0.024012916404218782,
+          "ttfs_ms": {
+            "median": 51.28197699923476,
+            "p95": 155.94983840019265,
+            "p99": 258.8431706800845
+          },
+          "ttft_ms": {
+            "median": 1132.4887079999826,
+            "p95": 1888.9344392000567,
+            "p99": 2167.996519120134
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-phonecodec": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 81,
+          "deletions": 15,
+          "insertions": 10,
+          "wer": 0.019054467014200972,
+          "mean_clip_wer": 0.019689211057544283,
+          "ttfs_ms": {
+            "median": 54.953148999629775,
+            "p95": 183.5069231994566,
+            "p99": 253.01235624014276
+          },
+          "ttft_ms": {
+            "median": 1136.1977859996841,
+            "p95": 1668.8620187997003,
+            "p99": 2131.7217524005537
+          },
+          "final_before_endpoint": 0
+        },
+        "stt-wildasr-reverb": {
+          "attempted": 277,
+          "successful": 277,
+          "failed": 0,
+          "scored": 277,
+          "reference_words": 5563,
+          "substitutions": 102,
+          "deletions": 398,
+          "insertions": 17,
+          "wer": 0.09293546647492361,
+          "mean_clip_wer": 0.09830778184990722,
+          "ttfs_ms": {
+            "median": 67.24830599978304,
+            "p95": 560.0984552000214,
+            "p99": 3640.827455680089
+          },
+          "ttft_ms": {
+            "median": 1139.4857860004777,
+            "p95": 1913.317870400351,
+            "p99": 2932.439558600165
+          },
+          "final_before_endpoint": 0
+        }
+      }
+    }
+  ]
+}

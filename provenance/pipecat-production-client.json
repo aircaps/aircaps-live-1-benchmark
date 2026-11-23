@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-22",
+  "api": "public production API",
+  "client_location": "Atlanta",
+  "client_to_endpoint_ms_reported_by_operator": 1.7,
+  "independently_remeasured": false,
+  "input_revision": "847083fbabb4fbcfae7fe71f24961acdb03de4e3",
+  "source_snapshot": "AirCaps integration commit 3677567; source checkout unchanged",
+  "input_manifest": "results/pipecat_stt/input_manifest.json",
+  "installed_versions": "results/pipecat_stt/dependency_versions.txt",
+  "cache_commit_evidence": [
+    "_home_ubuntu_.cache_huggingface_datasets_pipecat-ai___smart-turn-data-v3.1-train_default_0.0.0_847083fbabb4fbcfae7fe71f24961acdb03de4e3.lock"
+  ]
+}

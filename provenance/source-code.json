@@ -1,0 +1,17 @@
+{
+  "code_sources": {
+    "livekit_scorer": "81078c0962e89bc03c74620f71127829b1aac812",
+    "original_runner_sha256": "a091068a9c190a1267fc13aad3ee6d8d91359246d54e989b0965b04108e3b88c",
+    "pipecat_stt": {
+      "upstream": "d4d85a9ec7d3465671ae5e18bf725c013cdfb4ca",
+      "aircaps_adapter": "3677567b176790d606306d79c5d44c9b3b80cff2",
+      "note": "AirCaps raw rerun is based on this adapter commit. Public copy excludes the removed provider and adds optional dataset-revision pinning; source running elsewhere is untouched."
+    }
+  },
+  "file_hashes": {
+    "src/aircaps_benchmarks/vendor/livekit_metrics.py": "01667e8aaebe4f056df589f6e5d8ccc5a0f6a42c218da47305fac45a5544573e",
+    "src/aircaps_benchmarks/vendor/__init__.py": "f235ad4a3dded4feb75c2ca0361120a574eed7a76e820a3c820a070e11964786",
+    "src/aircaps_benchmarks/vendor/pipecat_metrics.py": "887f9da3607508572026cb7b09f54f23dae6820accfac4fa20917067545343a5",
+    "src/aircaps_benchmarks/vendor/coval_wer.py": "51755275911e965f702d361015947b9c6af45f25acbc3e5e1d626ee4244807fa"
+  }
+}

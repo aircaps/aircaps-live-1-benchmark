@@ -1,0 +1,8 @@
+{
+  "package": "pipecat-aircaps",
+  "version": "0.1.1",
+  "sdist_url": "https://files.pythonhosted.org/packages/52/aa/fdfa1ef3adef2a5ff4a951ed96e02ee1a9c3b887dc2a0138f220a816eb1e/pipecat_aircaps-0.1.1.tar.gz",
+  "sdist_sha256": "97ee2ee64ee907dba1bfe3f4fc7140eb4f397b8a980fd3dae72a3796c629e105",
+  "source": "https://github.com/aircaps/pipecat-aircaps",
+  "note": "Exact locked public SDK source retained for adapter review. The harness still installs its lockfile dependency unchanged."
+}

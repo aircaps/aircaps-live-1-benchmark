@@ -1,0 +1,22 @@
+{
+  "livekit": {
+    "aircaps": {
+      "end_of_turn": true,
+      "min_turn_silence_ms": 200,
+      "end_of_turn_threshold": 0.65,
+      "max_turn_silence_ms": 3000,
+      "vad_threshold": 0.65
+    },
+    "inputs": 2288
+  },
+  "smart_turn": {
+    "aircaps": {
+      "end_of_turn": true,
+      "min_turn_silence_ms": 80,
+      "end_of_turn_threshold": 0.65,
+      "max_turn_silence_ms": 1800,
+      "vad_threshold": 0.3
+    },
+    "inputs": 5367
+  }
+}

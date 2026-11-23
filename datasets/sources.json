@@ -1,0 +1,49 @@
+{
+  "livekit": {
+    "repository": "livekit/eot-bench-data",
+    "revision": "ae834af9e9bddf73d1f550c190aaeb99bf31f523",
+    "license": "CC-BY-4.0",
+    "asr_inputs": 1744,
+    "turn_inputs": 2288,
+    "reference": "Concatenated dataset word alignments; six ASR inputs have no usable reference and are excluded from WER only."
+  },
+  "smart_turn": {
+    "repository": "pipecat-ai/smart-turn-data-v3.2-test",
+    "revision": "dfc179241fee65b0efe81ca37786f41ce26f38ec",
+    "license": "CC-BY-4.0",
+    "inputs": 5367,
+    "complete": 2649,
+    "incomplete": 2718,
+    "selection": "All English natural/non-synthetic clips."
+  },
+  "pipecat_stt": {
+    "repository": "pipecat-ai/smart-turn-data-v3.1-train",
+    "revision": "847083fbabb4fbcfae7fe71f24961acdb03de4e3",
+    "license": "CC-BY-4.0",
+    "inputs": 1000,
+    "status": "Completed run; resolved revision, actual-input hashes and installed versions recovered",
+    "selection": "Seed 42, offset 0, first 1000 English non-synthetic samples; original prepared PCM hashes retained.",
+    "protocol": "Official-harness semantic WER and VAD-aligned TTFS; separate from the historical conventional-WER suite."
+  },
+  "historical_pipecat": {
+    "repository": "pipecat-ai/stt-benchmark-data",
+    "revision": "ea9d721efd21d6a15d7956f804070ac560936fda",
+    "license": "CC-BY-4.0",
+    "inputs": 1000
+  },
+  "primock57": {
+    "repository": "babylonhealth/primock57",
+    "revision": "cd2ac707ad03cb4d2531f4ec6b90c659bf4357c5",
+    "license": "CC-BY-4.0",
+    "inputs": 3084,
+    "selection": "All 2–15 s annotated utterances with at least 3 whitespace words; markup-only intervals skipped, UNSURE markup stripped; exact intervals in historical manifest."
+  },
+  "coval": {
+    "repository": "coval-ai/benchmarks",
+    "manifests": "datasets/coval-manifests/",
+    "version": "1.1.0",
+    "inputs": 3383,
+    "selection": "All 877 corrected Pipecat-derived clips plus all 2506 English WildASR condition clips in the archived manifests. Source audio and prepared PCM hashes retained.",
+    "overlap": "The 877 Pipecat-derived clips overlap the original 1000 Pipecat clips. WildASR clean and five degraded conditions share 277 underlying utterances; accent cohort is separate."
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "models": {
+    "assemblyai_universal-3-5-pro": {
+      "target_ids": [
+        "coval/stt-v3/audio/0018.wav",
+        "coval/stt-v3/audio/0019.wav",
+        "coval/stt-v3/audio/0021.wav",
+        "coval/stt-v3/audio/0022.wav",
+        "coval/stt-v3/audio/0023.wav",
+        "coval/stt-v3/audio/0025.wav",
+        "coval/stt-v3/audio/0026.wav",
+        "coval/stt-v3/audio/0027.wav"
+      ],
+      "recovered_ids": [
+        "coval/stt-v3/audio/0018.wav"
+      ],
+      "unmatched_ids": [
+        "coval/stt-v3/audio/0019.wav",
+        "coval/stt-v3/audio/0021.wav",
+        "coval/stt-v3/audio/0022.wav",
+        "coval/stt-v3/audio/0023.wav",
+        "coval/stt-v3/audio/0025.wav",
+        "coval/stt-v3/audio/0026.wav",
+        "coval/stt-v3/audio/0027.wav"
+      ],
+      "sources": {
+        "coval/stt-v3/audio/0018.wav": {
+          "event_source": "results/assemblyai_universal-3-5-pro_full-events.jsonl.gz",
+          "source_sha256": "b40efdee409711afa4b5ac38bb8fe5543159356ba2c28e62de4c5c633f6e73db",
+          "matching_record_sources": [
+            "results/assemblyai_universal-3-5-pro_full.jsonl"
+          ],
+          "verified": [
+            "sample_id",
+            "transcript",
+            "relative first-text receipt time",
+            "relative last-final receipt time",
+            "max audio-send gap",
+            "final-before-endpoint flag"
+          ]
+        }
+      },
+      "scanned": [
+        {
+          "path": "results/assemblyai_universal-3-5-pro_full-events.jsonl.gz",
+          "bytes": 18378479,
+          "candidate_events": 1
+        },
+        {
+          "path": "results/assemblyai_universal-3-5-pro_pilot-events.jsonl.gz",
+          "bytes": 189219,
+          "candidate_events": 0
+        },
+        {
+          "path": "results/assemblyai_universal-3-5-pro_smoke-events.jsonl.gz",
+          "bytes": 43732,
+          "candidate_events": 0
+        }
+      ],
+      "rejected_candidate_reasons": {}
+    },
+    "assemblyai_universal-3-6-pro": {
+      "target_ids": [
+        "coval/stt-v3/audio/0019.wav",
+        "coval/stt-v3/audio/0021.wav",
+        "coval/stt-v3/audio/0022.wav",
+        "coval/stt-v3/audio/0023.wav",
+        "coval/stt-v3/audio/0026.wav",
+        "coval/stt-v3/audio/0027.wav"
+      ],
+      "recovered_ids": [],
+      "unmatched_ids": [
+        "coval/stt-v3/audio/0019.wav",
+        "coval/stt-v3/audio/0021.wav",
+        "coval/stt-v3/audio/0022.wav",
+        "coval/stt-v3/audio/0023.wav",
+        "coval/stt-v3/audio/0026.wav",
+        "coval/stt-v3/audio/0027.wav"
+      ],
+      "sources": {},
+      "scanned": [
+        {
+          "path": "results/assemblyai_universal-3-6-pro_full-events.jsonl.gz",
+          "bytes": 18340221,
+          "candidate_events": 0
+        },
+        {
+          "path": "results/assemblyai_universal-3-6-pro_pilot-events.jsonl.gz",
+          "bytes": 191609,
+          "candidate_events": 0
+        },
+        {
+          "path": "results/assemblyai_universal-3-6-pro_smoke-events.jsonl.gz",
+          "bytes": 35451,
+          "candidate_events": 0
+        }
+      ],
+      "rejected_candidate_reasons": {}
+    },
+    "mai_mai-transcribe-2-streaming": {
+      "target_ids": [
+        "coval/stt-wildasr-accent/audio/0630.wav",
+        "coval/stt-wildasr-clipping/audio/0004.wav",
+        "coval/stt-wildasr-clipping/audio/0011.wav",
+        "coval/stt-wildasr-farfield/audio/0055.wav",
+        "pipecat/0cec89f8-8c5d-a03e-6723-6d365c494959",
+        "primock57/day2_consultation10_doctor@294.621578085441:297.830709885464",
+        "primock57/day4_consultation08_doctor@668.587589:677.95999348269",
+        "primock57/day5_consultation01_doctor@317.044009342543:324.053606683388"
+      ],
+      "recovered_ids": [],
+      "unmatched_ids": [
+        "coval/stt-wildasr-accent/audio/0630.wav",
+        "coval/stt-wildasr-clipping/audio/0004.wav",
+        "coval/stt-wildasr-clipping/audio/0011.wav",
+        "coval/stt-wildasr-farfield/audio/0055.wav",
+        "pipecat/0cec89f8-8c5d-a03e-6723-6d365c494959",
+        "primock57/day2_consultation10_doctor@294.621578085441:297.830709885464",
+        "primock57/day4_consultation08_doctor@668.587589:677.95999348269",
+        "primock57/day5_consultation01_doctor@317.044009342543:324.053606683388"
+      ],
+      "sources": {},
+      "scanned": [
+        {
+          "path": "results/mai_mai-transcribe-2-streaming_full-events.jsonl.gz",
+          "bytes": 38516794,
+          "candidate_events": 0
+        },
+        {
+          "path": "results/mai_mai-transcribe-2-streaming_pilot-events.jsonl.gz",
+          "bytes": 393257,
+          "candidate_events": 0
+        },
+        {
+          "path": "results/mai_mai-transcribe-2-streaming_smoke-events.jsonl.gz",
+          "bytes": 136875,
+          "candidate_events": 0
+        }
+      ],
+      "rejected_candidate_reasons": {}
+    }
+  },
+  "no_provider_calls": true,
+  "original_records_unchanged": true,
+  "timing_tolerance_ms": 1e-07,
+  "elapsed_seconds": 3.371701833999964,
+  "reader_warnings": [
+    {
+      "file": "assemblyai_universal-3-5-pro_full-events.jsonl.gz",
+      "member_offset": 0,
+      "error": "Error -3 while decompressing data: invalid distance code",
+      "retained_pre_error_output_bytes": 24670
+    },
+    {
+      "file": "assemblyai_universal-3-6-pro_full-events.jsonl.gz",
+      "member_offset": 0,
+      "error": "Error -3 while decompressing data: invalid literal/length code",
+      "retained_pre_error_output_bytes": 13251
+    },
+    {
+      "file": "mai_mai-transcribe-2-streaming_pilot-events.jsonl.gz",
+      "member_offset": 0,
+      "error": "Error -3 while decompressing data: invalid literal/length code",
+      "retained_pre_error_output_bytes": 55966
+    }
+  ],
+  "local_independent_verification": "Recovered trace replayed through the public adapter; exact transcript plus first-text/final timing and maximum send gap matched immutable historical records within1e-7ms.",
+  "backup_search": "Retained raw-results-and-reports.tar contains byte-identical copies of all18 relevant smoke/pilot/full result and event files; no additional original candidate events."
+}

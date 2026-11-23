@@ -1,0 +1,18 @@
+name: Offline reproducibility
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: '3.12'
+      - run: uv sync --frozen
+      - run: uv run pytest
+      - run: uv run aircaps-bench score --track all
+      - run: uv run aircaps-bench report
+      - run: uv run python tools/audit_release.py

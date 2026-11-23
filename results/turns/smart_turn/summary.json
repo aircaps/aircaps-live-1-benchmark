@@ -1,0 +1,230 @@
+{
+  "track": "turns/smart_turn",
+  "clips": 5367,
+  "results": [
+    {
+      "model": "AirCaps Live 1",
+      "model_key": "aircaps_aircaps-live-1",
+      "clips": 5367,
+      "metrics": {
+        "600": {
+          "tp": 1754,
+          "fp": 60,
+          "tn": 2658,
+          "fn": 895,
+          "accuracy": 0.8220607415688467,
+          "recall": 0.6621366553416383,
+          "fpr": 0.02207505518763797,
+          "precision": 0.9669239250275634,
+          "f1": 0.7860183732915079,
+          "median_ms": 209.3590160009633,
+          "p95_ms": 522.1251338019072,
+          "official_fpr": 0.011179429849077696,
+          "official_fnr": 0.16675982858207564,
+          "pipecat_formula": {
+            "sample_count": 5367,
+            "accuracy": 82.20607415688467,
+            "precision": 0.9669239250275634,
+            "recall": 0.6621366553416383,
+            "f1": 0.7860183732915079,
+            "false_positive_rate": 1.1179429849077696,
+            "false_negative_rate": 16.675982858207565
+          }
+        },
+        "1000": {
+          "tp": 2087,
+          "fp": 91,
+          "tn": 2627,
+          "fn": 562,
+          "accuracy": 0.8783305384758711,
+          "recall": 0.787844469611174,
+          "fpr": 0.03348050036791759,
+          "precision": 0.95821854912764,
+          "f1": 0.8647192873420344,
+          "median_ms": 247.5232669993419,
+          "p95_ms": 841.2052784006237,
+          "official_fpr": 0.016955468604434507,
+          "official_fnr": 0.10471399291969442,
+          "pipecat_formula": {
+            "sample_count": 5367,
+            "accuracy": 87.83305384758711,
+            "precision": 0.95821854912764,
+            "recall": 0.787844469611174,
+            "f1": 0.8647192873420344,
+            "false_positive_rate": 1.6955468604434507,
+            "false_negative_rate": 10.471399291969442
+          }
+        }
+      },
+      "cohorts": null
+    },
+    {
+      "model": "AssemblyAI Universal-3.5 Pro",
+      "model_key": "assemblyai_universal-3-5-pro",
+      "clips": 5367,
+      "metrics": {
+        "600": {
+          "tp": 1746,
+          "fp": 678,
+          "tn": 2040,
+          "fn": 903,
+          "accuracy": 0.7054220234768027,
+          "recall": 0.6591166477916195,
+          "fpr": 0.24944812362030905,
+          "precision": 0.7202970297029703,
+          "f1": 0.6883500887049083,
+          "median_ms": 318.7022169971898,
+          "p95_ms": 555.8208979979464,
+          "official_fpr": 0.12632755729457798,
+          "official_fnr": 0.16825041922861933,
+          "pipecat_formula": {
+            "sample_count": 5367,
+            "accuracy": 70.54220234768027,
+            "precision": 0.7202970297029703,
+            "recall": 0.6591166477916195,
+            "f1": 0.6883500887049083,
+            "false_positive_rate": 12.632755729457799,
+            "false_negative_rate": 16.82504192286193
+          }
+        },
+        "1000": {
+          "tp": 1987,
+          "fp": 870,
+          "tn": 1848,
+          "fn": 662,
+          "accuracy": 0.7145518911868828,
+          "recall": 0.7500943752359381,
+          "fpr": 0.3200883002207506,
+          "precision": 0.6954847742387119,
+          "f1": 0.721758082092263,
+          "median_ms": 339.811968000431,
+          "p95_ms": 756.1916715009281,
+          "official_fpr": 0.1621017328116266,
+          "official_fnr": 0.12334637600149059,
+          "pipecat_formula": {
+            "sample_count": 5367,
+            "accuracy": 71.45518911868828,
+            "precision": 0.6954847742387119,
+            "recall": 0.7500943752359381,
+            "f1": 0.721758082092263,
+            "false_positive_rate": 16.21017328116266,
+            "false_negative_rate": 12.33463760014906
+          }
+        }
+      },
+      "cohorts": null
+    },
+    {
+      "model": "AssemblyAI Universal-3.6 Pro",
+      "model_key": "assemblyai_universal-3-6-pro",
+      "clips": 5367,
+      "metrics": {
+        "600": {
+          "tp": 1720,
+          "fp": 579,
+          "tn": 2139,
+          "fn": 929,
+          "accuracy": 0.7190236631265139,
+          "recall": 0.6493016232540582,
+          "fpr": 0.2130242825607064,
+          "precision": 0.7481513701609396,
+          "f1": 0.6952303961196443,
+          "median_ms": 337.0000945010547,
+          "p95_ms": 557.5798161985584,
+          "official_fpr": 0.10788149804359978,
+          "official_fnr": 0.17309483882988635,
+          "pipecat_formula": {
+            "sample_count": 5367,
+            "accuracy": 71.9023663126514,
+            "precision": 0.7481513701609396,
+            "recall": 0.6493016232540582,
+            "f1": 0.6952303961196443,
+            "false_positive_rate": 10.788149804359978,
+            "false_negative_rate": 17.309483882988637
+          }
+        },
+        "1000": {
+          "tp": 2006,
+          "fp": 794,
+          "tn": 1924,
+          "fn": 643,
+          "accuracy": 0.7322526551145891,
+          "recall": 0.757266893167233,
+          "fpr": 0.29212656364974243,
+          "precision": 0.7164285714285714,
+          "f1": 0.7362818865846944,
+          "median_ms": 375.679917498347,
+          "p95_ms": 778.8321727498991,
+          "official_fpr": 0.14794112166946152,
+          "official_fnr": 0.11980622321594932,
+          "pipecat_formula": {
+            "sample_count": 5367,
+            "accuracy": 73.22526551145891,
+            "precision": 0.7164285714285714,
+            "recall": 0.757266893167233,
+            "f1": 0.7362818865846944,
+            "false_positive_rate": 14.794112166946153,
+            "false_negative_rate": 11.980622321594932
+          }
+        }
+      },
+      "cohorts": null
+    },
+    {
+      "model": "Deepgram Flux",
+      "model_key": "deepgram_flux-general-en",
+      "clips": 5367,
+      "metrics": {
+        "600": {
+          "tp": 1390,
+          "fp": 783,
+          "tn": 1935,
+          "fn": 1259,
+          "accuracy": 0.6195267374697224,
+          "recall": 0.5247263118157796,
+          "fpr": 0.28807947019867547,
+          "precision": 0.6396686608375518,
+          "f1": 0.5765242637909581,
+          "median_ms": 214.4781979999333,
+          "p95_ms": 553.4737739999091,
+          "official_fpr": 0.14589155953046395,
+          "official_fnr": 0.23458170299981368,
+          "pipecat_formula": {
+            "sample_count": 5367,
+            "accuracy": 61.952673746972245,
+            "precision": 0.6396686608375518,
+            "recall": 0.5247263118157796,
+            "f1": 0.5765242637909581,
+            "false_positive_rate": 14.589155953046395,
+            "false_negative_rate": 23.45817029998137
+          }
+        },
+        "1000": {
+          "tp": 1937,
+          "fp": 1470,
+          "tn": 1248,
+          "fn": 712,
+          "accuracy": 0.5934414011552077,
+          "recall": 0.7312193280483201,
+          "fpr": 0.5408388520971302,
+          "precision": 0.5685353683592603,
+          "f1": 0.6396961690885072,
+          "median_ms": 316.26633299987714,
+          "p95_ms": 933.7921826002066,
+          "official_fpr": 0.2738960313024036,
+          "official_fnr": 0.13266256754238867,
+          "pipecat_formula": {
+            "sample_count": 5367,
+            "accuracy": 59.34414011552077,
+            "precision": 0.5685353683592603,
+            "recall": 0.7312193280483201,
+            "f1": 0.6396961690885072,
+            "false_positive_rate": 27.38960313024036,
+            "false_negative_rate": 13.266256754238867
+          }
+        }
+      },
+      "cohorts": null
+    }
+  ]
+}

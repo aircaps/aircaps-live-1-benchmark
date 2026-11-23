@@ -1,0 +1,32 @@
+{
+  "input_reference_matches_canonical": true,
+  "judge_identifiers": [
+    "claude-sonnet-5-5",
+    "claude-sonnet-5-5 effort=medium repeats=1 rev=d739a9b1"
+  ],
+  "judge_matches_upstream": true,
+  "external_rows_source": "Pinned upstream README aggregates only",
+  "status": "results_imported",
+  "samples": 1000,
+  "services": [
+    "aircaps_live_1"
+  ],
+  "table_counts": {
+    "samples": 1000,
+    "results": 1000,
+    "runs": 1,
+    "ground_truth": 1000,
+    "wer_metrics": 997,
+    "semantic_wer_traces": 997
+  },
+  "dataset": "pipecat-ai/smart-turn-data-v3.1-train",
+  "dataset_revision": "847083fbabb4fbcfae7fe71f24961acdb03de4e3",
+  "upstream_commit": "d4d85a9",
+  "aircaps_adapter_commit": "3677567",
+  "source_database_sha256": "89fb8b2c707f91ce0db37f14f740c4e880a5d5eee2001564439b1585c684e177",
+  "public_database_sha256": "ba8a000beaba0a33daa0f47aec99da9413704f54975369370d9bfb66a524dd4c",
+  "note": "Resolved dataset commit recovered from the original client cache; manifest identities and durations match the archived database.",
+  "input_manifest": "results/pipecat_stt/input_manifest.json",
+  "prepared_audio_hashes_recorded": 1000,
+  "installed_versions": "results/pipecat_stt/dependency_versions.txt"
+}
